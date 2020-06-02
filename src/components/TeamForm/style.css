@@ -1,0 +1,33 @@
+.team-form-section{
+    background-color: #EEEEEE;
+    padding-top: 20px;
+}
+.team-form-container{
+    background-image: url("../../background/letreiro-equipe_03.png");
+    background-repeat: no-repeat;
+}
+.team-form-container .section-title{
+    margin: auto;
+    text-align: center;
+    padding-left: 0;
+ 
+}
+.team-form-container .section-title::after {
+    width: 0;
+    height: 0;
+}
+.team-form-container .section-subtitle{
+    text-align: center;
+    padding: 0;
+    margin: auto;
+}
+.team-form-container .form-inline{
+    margin: auto;
+    padding: 50px 0 15px 0;
+}
+.btn-team-form{
+    background-color: #B62528;
+    border-color: #B62528;
+    font-size: 16px;
+    font-weight: 500;
+}

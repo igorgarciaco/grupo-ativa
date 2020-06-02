@@ -1,0 +1,19 @@
+.cover-text{
+    z-index: 999;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 45px;
+}
+.cover-title{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 1.2;
+}
+.cover-subtitle{
+    font-size: 25px;
+    line-height: 1;
+}
+.we-offer{
+    background-color: #B62528;
+    padding: 0 10px 8px;
+}

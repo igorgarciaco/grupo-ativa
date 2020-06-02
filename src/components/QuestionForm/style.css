@@ -1,0 +1,62 @@
+.question-form-wrap{
+    background-color: #0A3000;
+    color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+    background-image: url("../../background/bg-contato_03.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.question-form-wrap .section-title-row{
+    background-image: url("../../background/letreiro-contato_03.png");
+    background-repeat: no-repeat;
+}
+.question-form-wrap form{
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 25px;
+}
+.question-form-wrap .row{
+    justify-content: center;
+    text-align: center;
+}
+.question-form-wrap input{
+    background-color: transparent;
+    border: none;
+    color: #A98C03;
+    text-decoration: underline;
+}
+.question-form-wrap input::placeholder{
+    color: #A98C03;
+    text-decoration: underline;
+}
+.question-form-wrap input:focus{
+    background-color: transparent;
+    border: none;
+    color: #A98C03;
+    box-shadow: none;
+}
+.question-form-wrap .btn-question-form{
+    background-color: transparent;
+    color: #A98C03;
+    border-color: #A98C03;
+    font-weight: bold;
+    padding: 10px 55px;
+}
+.question-form-wrap .btn-question-form:hover{
+    background-color: #A98C03;
+    color: #0A3000;
+}
+.question-form-wrap .section-title{
+    padding: 0;
+}
+.question-form-wrap .section-subtitle{
+    padding: 0;
+}
+.question-form-wrap .section-title::after{
+    background-color: #ffffff;
+}
+.question-form-wrap .section-title span{
+    color: #A98C03;
+}

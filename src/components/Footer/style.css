@@ -1,0 +1,37 @@
+.footer-wrapper{
+    padding: 50px 100px;
+    background-color: #EEEEEE;
+    background-image: url("../../background/logo-ativa-bg-rodape_03.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer-wrapper .foo-logo{
+    width: 400px;
+}
+.footer-wrapper .foo-stamp{
+    width: 130px;
+    float: right;
+}
+.footer-wrapper .nav-link{
+    padding: 5px !important;
+    font-weight: bold;
+    color: #272727;
+    font-size: 15px;
+}
+.footer-wrapper .foo-social-icons{
+    float: right;
+    padding-top: 25px;
+}
+.footer-wrapper .foo-social-icon{
+    margin: 5px;
+}
+.footer-wrapper .foo-contact{
+    float: right;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -50px;
+}
+.footer-wrapper .foo-contact p{
+    margin: 0;
+}

@@ -1,0 +1,30 @@
+.stats-section{
+    background-image: url("../../background/bg-numeros_02.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.stats-col{
+    text-align: center;
+    padding: 40px;
+}
+.stats-col-bg-1{
+    background-color: rgba(182,37,40,0.8);
+}
+.stats-col-bg-2{
+    background-color: rgba(182,37,40,0.7);
+}
+.stats-col-bg-3{
+    background-color: rgba(182,37,40,0.6);
+}
+.stats-col-bg-4{
+    background-color: rgba(182,37,40,0.5);
+}
+.stats-number{
+    color: #ffffff;
+    font-size: 60px;
+}
+.stats-description{
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 500;
+}

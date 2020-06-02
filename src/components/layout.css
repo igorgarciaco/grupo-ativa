@@ -615,6 +615,26 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+
+/* shared class names */
+.red-text{
+  color: #B62528;
+}
+.section-title{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 60px;
+  padding-left: 100px;
+}
+.section-subtitle{
+  font-size: 15px;
+  padding: 0 250px 0 350px;
+  font-weight: 500;
+}
+/* /shared class names */
+
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

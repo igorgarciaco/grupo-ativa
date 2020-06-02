@@ -1,0 +1,75 @@
+.unit-tabs .container .row:first-child{
+    background-image: url("../../background/letreiro-unidades_05.png");
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
+}
+.unit-tabs .nav-item{
+    border-top: 1px solid #B62528;
+    border-bottom: 1px solid #B62528;
+    border-left: 1px solid #B62528;
+    background-image: url("../../background/letreiro-ativa-unidades_05.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.unit-tabs .nav-item:first-child{
+    border-left: 0;
+}
+.unit-tabs .nav-link{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px !important;
+    height: 100%;
+}
+.unit-tabs .nav-link:hover{
+    padding: 10px;
+    border-color: transparent;
+}
+.unit-tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border-color: transparent;
+    position: relative;
+    background-color: transparent;
+}
+.unit-tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active::after{
+    content: '';
+    width: 30px; 
+    height: 10px; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #B62528;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -26px;
+    left: 43%;
+}
+.unit-tabs ul{
+    margin: 0;
+    width: 100%;
+    height: 80px;
+}
+.unit-tabs li{
+    width: 20%;
+    text-align: center;
+}
+.unit-tabs .tab-pane{
+    padding-top: 50px;
+}
+.unit-tabs .unit-description p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.unit-tabs .unit-description h4{
+    padding: 20px 0;
+    font-weight: bold;
+}
+.unit-tabs .section-title{
+    margin: auto;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 25px;
+}
+.unit-tabs .section-subtitle{
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    padding-bottom: 50px;
+}

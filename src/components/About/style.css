@@ -1,0 +1,25 @@
+.about-text{
+    padding-left: 50px;
+}
+.about-title{
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.first-redline{
+    background-color: #B62528;
+    width: 30px;
+    height: 4px;
+    display: block;
+}
+.second-redline{
+    background-color: #B62528;
+    width: 130px;
+    height: 4px;
+    display: block;
+    margin-left: 40px;
+    margin-top: -4px;
+    margin-bottom: 30px;
+}
+.about-paragraph{
+    font-size: 15px;
+}

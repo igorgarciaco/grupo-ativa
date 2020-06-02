@@ -1,0 +1,120 @@
+.services-right {
+    margin-top: -2px;
+    font-size: 15px;
+    /* border: 2px solid #B62528; */
+    border-left: 0;
+    /* border-radius: 0px 50px 50px 0px; */
+    /* padding: 50px 50px 100px; */
+    /* margin-top: 100px; */
+}
+.text-col {
+    padding: 50px 50px 120px;
+    border: 2px solid #B62528;
+    border-left: 0;
+    border-right: 0;
+}
+.text-contabilidade {
+    padding: 50px 0 120px;
+}
+.text-contabilidade h2{
+    font-weight: bold;
+}
+.img-right-col {
+    border: 2px solid #B62528;
+    border-radius: 0px 50px 50px 0px;
+    border-left: 0;
+    padding: 50px;
+}
+.service-logo {
+    width: 200px;
+    margin-top: -140px;
+}
+.contabilidade-logo {
+    margin-top: -85px;
+}
+.contabilidade-logo-col {
+    border: 2px solid #B62528;
+    border-left: 0;
+    border-right: 0;
+}
+.services-right .text-col {
+    padding-top: 50px;
+}
+.btn-more-red {
+    border: 2px solid #B62528;
+    background-color: transparent;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px 60px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.btn-more-red:hover {
+    background-color: #B62528;
+    border: 2px solid #B62528;
+}
+.btn-more-apoema {
+    border: 2px solid #E7833A;
+    background-color: transparent;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px 60px;
+    margin-top: 20px;
+    font-weight: 500;
+    float: right;
+}
+.btn-more-apoema:hover {
+    background-color: #E7833A;
+    border: 2px solid #E7833A;
+}
+.btn-more-keywest {
+    border: 2px solid #F5E743;
+    background-color: transparent;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px 60px;
+    margin-top: 20px;
+    font-weight: 500;
+    float: right;
+}
+.btn-more-keywest:hover {
+    background-color: #F5E743;
+    border: 2px solid #F5E743;
+}
+
+/* left */
+
+.services-left {
+    margin-top: -2px;
+    font-size: 15px;
+    /* border: 2px solid #B62528; */
+    border-left: 0;
+    /* border-radius: 0px 50px 50px 0px; */
+    /* padding: 50px 50px 100px; */
+    /* margin-top: 100px; */
+}
+.key-west .img-left-col{
+    border-bottom: 0;
+    border-radius: 50px 0px 0px 0px;
+}
+.key-west .text-col{
+    border-bottom: 0;
+}
+.img-left-col {
+    border: 2px solid #B62528;
+    border-radius: 50px 0px 0px 50px;
+    border-right: 0;
+    padding: 50px;
+}
+.services-left .service-logo {
+    float: right;
+}
+.services-left .text-col p {
+    padding-top: 50px;
+}
+.services-left .btn-more {
+    float: right;
+}
+.service-logo-left {
+    margin-top: -320px;
+}
