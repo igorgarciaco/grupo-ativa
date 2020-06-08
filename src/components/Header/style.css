@@ -1,5 +1,9 @@
-.navbar{
+#navbar{
     padding: 0 25px !important;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    background: transparent;
 }
 .main-navbar{
     border-bottom: 1px solid #ffffff3b;

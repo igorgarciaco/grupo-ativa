@@ -1,113 +1,85 @@
-import PropTypes from "prop-types"
-import React, { useState } from "react"
-
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
-
+import React, { Component } from 'react';
+import { Link } from 'gatsby';
+import './style.css';
 import {
-  Collapse,
+  NavDropdown,
+  Form,
   Navbar,
-  NavbarToggler,
-  NavbarBrand,
+  FormControl,
   Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  Col
-} from "reactstrap"
-import "./style.css"
+  Button,
+} from 'react-bootstrap';
 
-const Header = () => {
 
-  const data = useStaticQuery(graphql`
-  query {
-    placeholderImage: file(relativePath: { eq: "logo.png" }) {
-      childImageSharp {
-        fixed(width: 300) {
-          ...GatsbyImageSharpFixed_tracedSVG
-          
-        }
+class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.toggle = this.toggleNavbar.bind(this);
+
+    window.addEventListener("scroll", function (event) {
+      if (window.pageYOffset > 100) {
+        document.getElementById('navbar').style.background = "rgba(0,0,0,0.8)";
       }
+      else {
+        document.getElementById('navbar').style.background = "transparent";
+      }
+    });
+
+    // https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
+    if (typeof window !== 'undefined') {
+      let prevScrollpos = window.pageYOffset;
+      window.onscroll = function () {
+        const maxScroll = document.body.clientHeight - window.innerHeight;
+        let currentScrollPos = window.pageYOffset;
+        if (
+          (maxScroll > 0 &&
+            prevScrollpos > currentScrollPos &&
+            prevScrollpos <= maxScroll) ||
+          (maxScroll <= 0 && prevScrollpos > currentScrollPos) ||
+          (prevScrollpos <= 0 && currentScrollPos <= 0)
+        ) {
+          document.getElementById('navbar').style.top = '0';
+        } else {
+          document.getElementById('navbar').style.top = '-5.0rem';
+        }
+        prevScrollpos = currentScrollPos;
+      };
     }
   }
-`)
 
-// return
-// }
+  state = {
+    isOpen: false,
+  };
 
-  const [isOpen, setIsOpen] = useState(false);
+  toggleNavbar() {
+    this.setState({
+      isOpen: !this.state.isOpen,
+    });
+  }
 
-  const toggle = () => setIsOpen(!isOpen);
-
-  return (
-    <>
-    <header>
-        <Navbar className="main-navbar" expand="lg" fixed="top" light>
-          <Col md="6">
-            <NavbarBrand href="/"> <Img fixed={data.placeholderImage.childImageSharp.fixed}/> </NavbarBrand>
-          </Col>
-          <Col md="6">
-            <NavbarToggler onClick={toggle} />
-            <Collapse isOpen={isOpen} navbar>
-              <Nav navbar>
-                <NavItem>
-                  <NavLink href="">Inicio</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="">Sobre</NavLink>
-                </NavItem>
-                <UncontrolledDropdown nav inNavbar>
-                  <DropdownToggle nav >
-                    Serviços
-              </DropdownToggle>
-                  <DropdownMenu left>
-                    <DropdownItem>
-                      Ativa despacho
-                </DropdownItem>
-                    <DropdownItem>
-                      apoema certificações
-                </DropdownItem>
-                    <DropdownItem>
-                      ativa contabilidade
-                </DropdownItem>
-                    <DropdownItem>
-                      ativa juridico
-                </DropdownItem>
-                    <DropdownItem>
-                      key west transportes
-                </DropdownItem>
-                    <DropdownItem>
-                      ativa logística
-                </DropdownItem>
-                  </DropdownMenu>
-                </UncontrolledDropdown>
-                <NavItem>
-                  <NavLink href="">unidades</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="">contato</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="">noticias</NavLink>
-                </NavItem>
-              </Nav>
-            </Collapse>
-          </Col>
+  render() {
+    return (
+      <React.Fragment>
+        <Navbar expand="lg" id="navbar" className="main-navbar">
+          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="#link">Link</Nav.Link>
+              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+              </NavDropdown>
+            </Nav>
+          </Navbar.Collapse>
         </Navbar>
-    </header>
-    </>
-  )
+      </React.Fragment>
+    );
+  }
 }
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
-
-export default Header
+export default Header;
