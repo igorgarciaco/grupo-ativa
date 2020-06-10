@@ -81,7 +81,7 @@ class Header extends Component {
               spy={true}
               smooth={true}
               offset={-500}
-              duration={500}>>Inicio</Link>
+              duration={500}>Inicio</Link>
                 <Link to="aboutSection" className="nav-link"
                   spy={true}
                   smooth={true}
