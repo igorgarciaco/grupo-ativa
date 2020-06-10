@@ -3,6 +3,9 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.stats-container{
+    padding: 0;
+}
 .stats-col{
     text-align: center;
     padding: 40px;

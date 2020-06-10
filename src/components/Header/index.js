@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'gatsby';
+import { Link, animateScroll } from "react-scroll";
+
 import './style.css';
 import {
   Container,
@@ -18,7 +19,8 @@ class Header extends Component {
 
     // https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
     if (typeof window !== 'undefined') {
-
+      require("smooth-scroll")('a[href*="#"]');
+      // change classes when scrolling
       window.addEventListener("scroll", function (event) {
         if (window.pageYOffset > 100) {
           document.getElementById('navbar').classList.add("navbar-fixed");
@@ -27,7 +29,7 @@ class Header extends Component {
           document.getElementById('navbar').classList.remove("navbar-fixed");
         }
       });
-
+      // show/hide nav when scrolling 
       let prevScrollpos = window.pageYOffset;
       window.onscroll = function () {
         const maxScroll = document.body.clientHeight - window.innerHeight;
@@ -41,7 +43,7 @@ class Header extends Component {
         ) {
           document.getElementById('navbar').style.top = '0';
         } else {
-          document.getElementById('navbar').style.top = '-5.0rem';
+          document.getElementById('navbar').style.top = '-15.0rem';
         }
         prevScrollpos = currentScrollPos;
       };
@@ -63,25 +65,101 @@ class Header extends Component {
       <React.Fragment>
         <Navbar expand="lg" id="navbar" className="main-navbar">
           <Container>
-            <Navbar.Brand href="#home">
+            <Navbar.Brand>
+              <Link to="coverText" className="brand"
+              spy={true}
+              smooth={true}
+              offset={-500}
+              duration={500}>
               <Logo />
+              </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="inside-nav">
-                <Nav.Link href="#home">Inicio</Nav.Link>
-                <Nav.Link href="#aboutSection">Sobre</Nav.Link>
+                <Link to="#" className="nav-link">Inicio</Link>
+                <Link to="aboutSection" className="nav-link"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}>
+                  Sobre
+                </Link>
                 <NavDropdown title="Servicos" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="#assessoria">Ativa despacho</NavDropdown.Item>
-                  <NavDropdown.Item href="#apoema">apoema ceritificações</NavDropdown.Item>
-                  <NavDropdown.Item href="#contabilidade">ativa contabilidade</NavDropdown.Item>
-                  <NavDropdown.Item href="#logistica">ativa logistica</NavDropdown.Item>
-                  <NavDropdown.Item href="#juridico">ativa juridico</NavDropdown.Item>
-                  <NavDropdown.Item href="#keyWest">key west transportes</NavDropdown.Item>
+
+                  <NavDropdown.Item>
+                    <Link
+                      to="assessoria"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}>
+                      Ativa despacho
+                      </Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link
+                      to="apoema"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}>
+                      Apoema ceritificações
+                      </Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link
+                      to="logistica"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}>
+                      Ativa logistica
+                      </Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link
+                      to="juridico"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}>
+                      Ativa juridico
+                      </Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link
+                      to="keyWest"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}>
+                      Key West Transportes
+                      </Link>
+                  </NavDropdown.Item>
+
                 </NavDropdown>
-                <Nav.Link href="#units">Unidades</Nav.Link>
-                <Nav.Link href="#contact">Contato</Nav.Link>
-                <Nav.Link href="#link">Noticias</Nav.Link>
+                <Link to="units" className="nav-link"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}>
+                  unidades
+                </Link>
+                <Link to="contact" className="nav-link"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}>
+                  Contato
+                </Link>
+                {/* <Link to="" className="nav-link"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}>
+                  noticias
+                </Link> */}
               </Nav>
             </Navbar.Collapse>
           </Container>

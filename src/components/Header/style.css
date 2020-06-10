@@ -6,6 +6,9 @@
     background: transparent;
     transition: 0.5s;
 }
+.brand:hover{
+    cursor: pointer;
+}
 .navbar-fixed{
     background-color: rgba(0,0,0,0.8) !important;
     transition: 0.5s;
@@ -38,6 +41,7 @@ li.nav-item.show{
 }
 .navbar-nav .nav-link:hover{
     background-color: #ffffff;
+    cursor: pointer;
 }
 .navbar-nav .nav-link.active{
     background-color: transparent;
