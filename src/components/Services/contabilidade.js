@@ -37,7 +37,7 @@ const Contabilidade = ({ serviceImg, serviceLogo, serviceText }) => {
     <Container className="services-right">
       <Row>
         <Col md="1"></Col>
-        <Col md="3" className="contabilidade-logo-col">
+        <Col md="3" className="contabilidade-logo-col" id="contabilidade">
           <div className="contabilidade-logo">
             {TheLogoYouWant}
           </div>

@@ -35,3 +35,9 @@
 .footer-wrapper .foo-contact p{
     margin: 0;
 }
+
+@media (min-width: 767px) {
+    .footer-wrapper{
+        padding: 0;
+    }
+}

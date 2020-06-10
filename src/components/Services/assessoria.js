@@ -38,7 +38,7 @@ const Assessoria = ({ serviceImg, serviceLogo, serviceText }) => {
             <Row>
                 <Col md="1"></Col>
                 <Col className="text-col" md="5">
-                    <div className="service-logo">
+                    <div className="service-logo" id="assessoria">
                         {TheLogoYouWant}
                     </div>
                     <p>{serviceText}</p>

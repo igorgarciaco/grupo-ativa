@@ -14,7 +14,7 @@ const UnitTabs = (props) => {
     }
     return (
         <>
-            <section className="unit-tabs">
+            <section className="unit-tabs" id="units" >
                 <Container>
                     <Row>
                         <h1 className="section-title text-uppercase"> nossas <span className="red-text">unidades</span></h1>

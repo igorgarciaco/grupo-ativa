@@ -41,7 +41,7 @@ const Apoema = ({ serviceImg, serviceLogo, serviceText }) => {
             </Col>
             <Col className="text-col" md="5">
                 <p>{serviceText}</p>
-                <div className="service-logo service-logo-left">
+                <div className="service-logo service-logo-left" id="apoema">
                     {TheLogoYouWant}
                 </div>
                 <Button className="btn-more-apoema">Saiba mais</Button>

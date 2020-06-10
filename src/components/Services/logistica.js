@@ -41,7 +41,7 @@ const Logistica = ({ serviceImg, serviceLogo, serviceText }) => {
             </Col>
             <Col className="text-col" md="5">
                 <p>{serviceText}</p>
-                <div className="service-logo service-logo-left">
+                <div className="service-logo service-logo-left" id="logistica">
                     {TheLogoYouWant}
                 </div>
                 <Button className="btn-more-red">Saiba mais</Button>

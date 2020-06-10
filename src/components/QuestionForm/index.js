@@ -8,7 +8,7 @@ const QuestionForm = () => {
 
     return (
         <>
-            <section className="question-form-wrap">
+            <section className="question-form-wrap" id="contact">
             <Container>
                     <Row className="section-title-row">
                         <h2 className="section-title text-uppercase"> <span>DÚVIDAS?</span> Podemos ajuda-lo </h2>

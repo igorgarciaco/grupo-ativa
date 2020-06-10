@@ -33,7 +33,7 @@ const IndexPage = () => (
       <div className="cover-overlay">
         <CoverText />
       </div>
-      <section className="about-section">
+      <section className="about-section" id="aboutSection">
         <Container>
           <Row className="mt-5 about-row">
             <Col md="4" className="profile-col">
@@ -46,10 +46,10 @@ const IndexPage = () => (
       </section>
       <Statistics />
       <SectionHeader />
-      <Assessoria
-        serviceImg="servicos_06.png"
-        serviceLogo="logo-assessoria.png"
-        serviceText="No mercado desde 1995, o Grupo Ativa Assessoria Aduaneira
+        <Assessoria
+          serviceImg="servicos_06.png"
+          serviceLogo="logo-assessoria.png"
+          serviceText="No mercado desde 1995, o Grupo Ativa Assessoria Aduaneira
                 é especializado em despachos aduaneiros no setor marítimo,
                 aéreo, ferroviário e terrestre, assessorando as empresas junto
                 à alfândega e demais órgaos públicos"/>
