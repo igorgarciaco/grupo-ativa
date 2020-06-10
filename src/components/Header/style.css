@@ -56,7 +56,6 @@ li.nav-item.show{
 .dropdown-menu .show{
     background-color: #ffffff;
 }
-
 .dropdown-item.active, .dropdown-item:active{
     background-color: #B62528 !important;
 }
