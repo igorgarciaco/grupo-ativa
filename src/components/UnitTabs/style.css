@@ -1,7 +1,7 @@
 .unit-tabs .container .row:first-child{
     background-image: url("../../background/letreiro-unidades_05.png");
     background-repeat: no-repeat;
-    background-position: 15px 15px;
+    background-position: 15px 65px;
 }
 .unit-tabs .nav-item{
     border-top: 1px solid #B62528;
@@ -65,7 +65,7 @@
     margin: auto;
     text-align: center;
     padding-left: 0;
-    padding-top: 25px;
+    padding-top: 75px;
 }
 .unit-tabs .section-subtitle{
     text-align: center;

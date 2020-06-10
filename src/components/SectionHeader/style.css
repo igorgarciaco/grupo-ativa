@@ -6,7 +6,7 @@
     /* margin-bottom: -102px; */
     background-image: url("../../background/letreiro-servicos_03.png");
     background-repeat: no-repeat;
-    background-position: 15px 15px;
+    background-position: 15px 65px;
 }
 .section-subtitle{
     font-size: 15px;
@@ -23,8 +23,6 @@
     margin-top: 20px;
     margin-bottom: 25px;
 }
-.first-section-header{
-    /* background-image: url("../../background/letreiro-servicos_03.png");
-    background-repeat: no-repeat;
-    background-position: 15px 15px; */
+.first-section-header .section-title{
+    padding-top: 50px;
 }

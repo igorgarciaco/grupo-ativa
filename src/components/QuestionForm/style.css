@@ -2,7 +2,7 @@
     background-color: #0A3000;
     color: #ffffff;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
     margin-top: 50px;
     background-image: url("../../background/bg-contato_03.png");
     background-repeat: no-repeat;
@@ -11,6 +11,7 @@
 .question-form-wrap .section-title-row{
     background-image: url("../../background/letreiro-contato_03.png");
     background-repeat: no-repeat;
+    background-position: 15px 25px;
 }
 .question-form-wrap form{
     font-weight: bold;
@@ -50,6 +51,7 @@
 }
 .question-form-wrap .section-title{
     padding: 0;
+    padding-top: 50px;
 }
 .question-form-wrap .section-subtitle{
     padding: 0;

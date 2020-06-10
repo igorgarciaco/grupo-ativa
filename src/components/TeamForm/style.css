@@ -5,12 +5,13 @@
 .team-form-container{
     background-image: url("../../background/letreiro-equipe_03.png");
     background-repeat: no-repeat;
+    background-position: 15px 65px;
 }
 .team-form-container .section-title{
     margin: auto;
     text-align: center;
     padding-left: 0;
- 
+    padding-top: 50px;
 }
 .team-form-container .section-title::after {
     width: 0;
