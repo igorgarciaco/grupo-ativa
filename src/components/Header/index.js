@@ -77,7 +77,11 @@ class Header extends Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="inside-nav">
-                <Link to="#" className="nav-link">Inicio</Link>
+              <Link to="coverText" className="nav-link"
+              spy={true}
+              smooth={true}
+              offset={-500}
+              duration={500}>>Inicio</Link>
                 <Link to="aboutSection" className="nav-link"
                   spy={true}
                   smooth={true}
