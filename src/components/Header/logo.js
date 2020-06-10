@@ -18,7 +18,6 @@ const Logo = () => {
       }
     }
   `)
-
   return <Img fixed={data.placeholderImage.childImageSharp.fixed} />
 }
 
