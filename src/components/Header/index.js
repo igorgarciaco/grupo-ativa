@@ -18,17 +18,20 @@ class Header extends Component {
     super(props);
     this.toggle = this.toggleNavbar.bind(this);
 
-    window.addEventListener("scroll", function (event) {
-      if (window.pageYOffset > 100) {
-        document.getElementById('navbar').style.background = "rgba(0,0,0,0.8)";
-      }
-      else {
-        document.getElementById('navbar').style.background = "transparent";
-      }
-    });
+  
 
     // https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
     if (typeof window !== 'undefined') {
+
+      window.addEventListener("scroll", function (event) {
+        if (window.pageYOffset > 100) {
+          document.getElementById('navbar').style.background = "rgba(0,0,0,0.8)";
+        }
+        else {
+          document.getElementById('navbar').style.background = "transparent";
+        }
+      });
+      
       let prevScrollpos = window.pageYOffset;
       window.onscroll = function () {
         const maxScroll = document.body.clientHeight - window.innerHeight;

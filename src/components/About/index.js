@@ -13,7 +13,7 @@ const AboutText = () => {
     query {
       placeholderImage: file(relativePath: { eq: "assinatura-diretor_03.png" }) {
         childImageSharp {
-          fixed(width: 300) {
+          fixed(width: 200) {
             ...GatsbyImageSharpFixed_tracedSVG
             
           }
@@ -22,7 +22,6 @@ const AboutText = () => {
     }
   `)
   
-
     return (
         <Col md="8" className="about-text">
             <h1 className="text-uppercase about-title">Sobre o grupo <span className="red-text">ativa</span></h1>
