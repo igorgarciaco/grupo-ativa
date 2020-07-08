@@ -1,0 +1,30 @@
+.internal-form{
+    font-family: 'Metropolis-Light';
+}
+.internal-form .apoema-submit{
+    background-color: transparent;
+    color: #F38138;
+    border-color: #F38138;
+    transition: 0.5s;
+    padding: 8px 60px;
+}
+.internal-form .apoema-submit:hover{
+    background-color: #F38138;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.internal-form .submit-col{
+    text-align: center;
+}
+.internal-form .assessoria-submit{
+    background-color: transparent;
+    color: #B62528;
+    border-color: #B62528;
+    padding: 8px 60px;
+    transition: 0.5s;
+}
+.internal-form .assessoria-submit:hover{
+    background-color: #B62528;
+    color: #ffffff;
+    transition: 0.5s;
+}

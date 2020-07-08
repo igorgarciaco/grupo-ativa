@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 
 import "./style.css"
@@ -42,7 +42,7 @@ const Assessoria = ({ serviceImg, serviceLogo, serviceText }) => {
                         {TheLogoYouWant}
                     </div>
                     <p>{serviceText}</p>
-                    <Button className="btn-more-red">Saiba mais</Button>
+                    <Link className="btn-more-red" to="/assessoria/">Saiba mais</Link>
                 </Col>
                 <Col className="img-right-col" md="6">
                     {TheImageYouWant}

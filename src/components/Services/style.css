@@ -52,6 +52,7 @@
 .btn-more-red:hover {
     background-color: #B62528;
     border: 2px solid #B62528;
+    color: #ffffff;
 }
 .btn-more-apoema {
     border: 2px solid #E7833A;
@@ -66,6 +67,7 @@
 .btn-more-apoema:hover {
     background-color: #E7833A;
     border: 2px solid #E7833A;
+    color: #ffffff;
 }
 .btn-more-keywest {
     border: 2px solid #F5E743;
@@ -80,6 +82,7 @@
 .btn-more-keywest:hover {
     background-color: #F5E743;
     border: 2px solid #F5E743;
+    color: #ffffff;
 }
 
 /* left */
