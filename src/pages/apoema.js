@@ -8,19 +8,33 @@ import "./internal.css"
 import { Container, Row, Col } from "reactstrap"
 
 import WhatsAppLogo from "../background/whatsapp-logo-1.png"
-import BoxImg from "../images/internal-content/apoema-img-1.jpg"
+import BoxImg from "../images/internal-content/apoema-img-1.png"
 
 import ApoemaForm from "../components/SpecialistForm/ApoemaForm.js"
 import SpecialistProfile from "../components/SpecialistProfile"
+import InternalHeader from "../components/InternalHeader"
+import InternalLogo from "../components/InternalLogo"
 
 const ApoemaPage = () => (
     <>
         <div className="internal-page">
             <Layout>
-                <SEO title="apoema" />
+                <SEO title="Apoema" />
                 <Container className="apoema-wrapper">
+                    <Row className="internal-header-row">
+                        <Col>
+                            <InternalHeader 
+                            internalHeaderImg="apoema-header.jpg" 
+                            internalHeaderTitle="apoema-header-title.png"
+                            internalHeaderSubtitle="Atuamos em todos Brasil e nos paises do Mercosul oferecendo atendimento personalizado
+                            para resolver as demandas de seus clientes relacionadas às áreas de  direito aduaneiro internacional, tributário e empresarial" />
+                        </Col>
+                    </Row>
                     <Row>
                         <Col md="6">
+                            <h2 className="text-uppercase internal-title">
+                                <span className="apoema-color">APOEMA</span> COMÉRCIO E SERVIÇOS
+                            </h2>
                             <p align="justify">
                                 orem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, ligula vel luctus ullamcorper, elit neque varius dui, eget congue nibh justo a urna. Donec sollicitudin varius metus et ornare. Maecenas maximus placerat volutpat. Curabitur facilisis justo sed neque consequat varius. Nulla lacinia, lectus eget ultrices ullamcorper, felis ipsum porta sem, at gravida velit est nec orci. Integer eget tellus vitae tellus pulvinar scelerisque congue in ligula. Phasellus dictum egestas turpis, convallis condimentum leo.
 
@@ -75,12 +89,18 @@ const ApoemaPage = () => (
                                 <div className="apoema-specialist">
 
                                     <SpecialistProfile
-                                        specPhoto="gatsby-icon.png"
+                                        specPhoto="avatar_apoema.png"
                                         specName="Eloir da Luz"
                                         specMail="ivandro@grupoativa.net"
                                         specNumber="(49)9 985 3337"
                                     />
                                 </div>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col md="6"></Col>
+                            <Col md="6">
+                                <InternalLogo brandLogo="logo-apoema.png" />
                             </Col>
                         </Row>
                     </Container>

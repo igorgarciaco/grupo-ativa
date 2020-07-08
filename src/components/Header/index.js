@@ -66,13 +66,13 @@ class Header extends Component {
         <Navbar expand="lg" id="navbar" className="main-navbar">
           <Container>
             <Navbar.Brand>
-              <Link to="coverText" className="brand"
+              <a href="/" className="brand"
               spy={true}
               smooth={true}
               offset={-500}
               duration={500}>
               <Logo />
-              </Link>
+              </a>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

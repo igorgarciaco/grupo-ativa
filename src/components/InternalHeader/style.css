@@ -1,0 +1,12 @@
+.internal-header-title{
+    margin-top: -550px;
+    padding: 50px;
+}
+.internal-header-subtitle{
+    padding: 0 50px;
+}
+.internal-header-subtitle p{
+    color: #ffffff;
+    text-align: justify;
+    font-family: 'Metropolis-Light';
+}
