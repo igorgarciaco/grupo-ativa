@@ -1,6 +1,6 @@
 .spec-contact{
     background-color: #e9e9e9;
-    padding-top: 100px;
+    padding-top: 50px;
     font-family: 'Metropolis-Light';
     background-image: url("../background/apoema_footer_bg.png");
     background-repeat: no-repeat;
@@ -70,4 +70,11 @@
 }
 .internal-page .footer-wrapper{
     display: none;
+}
+.internal-first-section{
+    background-image: url("../background/apoema-parabola.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    padding-bottom: 80px;
 }

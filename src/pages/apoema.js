@@ -20,49 +20,51 @@ const ApoemaPage = () => (
         <div className="internal-page">
             <Layout>
                 <SEO title="Apoema" />
-                <Container className="apoema-wrapper">
-                    <Row className="internal-header-row">
-                        <Col>
-                            <InternalHeader 
-                            internalHeaderImg="apoema-header.jpg" 
-                            internalHeaderTitle="apoema-header-title.png"
-                            internalHeaderSubtitle="Atuamos em todos Brasil e nos paises do Mercosul oferecendo atendimento personalizado
+                <section className="internal-first-section">
+                    <Container className="apoema-wrapper internal-container">
+                        <Row className="internal-header-row">
+                            <Col>
+                                <InternalHeader
+                                    internalHeaderImg="apoema-header.jpg"
+                                    internalHeaderTitle="apoema-header-title.png"
+                                    internalHeaderSubtitle="Atuamos em todos Brasil e nos paises do Mercosul oferecendo atendimento personalizado
                             para resolver as demandas de seus clientes relacionadas às áreas de  direito aduaneiro internacional, tributário e empresarial" />
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md="6">
-                            <h2 className="text-uppercase internal-title">
-                                <span className="apoema-color">APOEMA</span> COMÉRCIO E SERVIÇOS
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col md="6">
+                                <h2 className="text-uppercase internal-title">
+                                    <span className="apoema-color">APOEMA</span> COMÉRCIO E SERVIÇOS
                             </h2>
-                            <p align="justify">
-                                orem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, ligula vel luctus ullamcorper, elit neque varius dui, eget congue nibh justo a urna. Donec sollicitudin varius metus et ornare. Maecenas maximus placerat volutpat. Curabitur facilisis justo sed neque consequat varius. Nulla lacinia, lectus eget ultrices ullamcorper, felis ipsum porta sem, at gravida velit est nec orci. Integer eget tellus vitae tellus pulvinar scelerisque congue in ligula. Phasellus dictum egestas turpis, convallis condimentum leo.
+                                <p align="justify">
+                                    orem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, ligula vel luctus ullamcorper, elit neque varius dui, eget congue nibh justo a urna. Donec sollicitudin varius metus et ornare. Maecenas maximus placerat volutpat. Curabitur facilisis justo sed neque consequat varius. Nulla lacinia, lectus eget ultrices ullamcorper, felis ipsum porta sem, at gravida velit est nec orci. Integer eget tellus vitae tellus pulvinar scelerisque congue in ligula. Phasellus dictum egestas turpis, convallis condimentum leo.
 
-                                Fusce a pellentesque lacus, in fringilla arcu. Quisque eros odio, placerat vel fermentum sed, lobortis sit amet urna. Ut aliquam elit ac lectus lobortis, sed ultrices purus fringilla. Maecenas sollicitudin venenatis tristique. In sagittis viverra placerat. Aenean nulla nulla, blandit non auctor sed, dapibus sit amet sapien. Proin malesuada orci ut vulputate ultrices. Praesent tincidunt arcu nisl, in convallis ipsum fringilla vel. Aenean feugiat at justo ut faucibus. Proin ligula magna, malesuada a urna a, iaculis accumsan nibh. Fusce justo lacus, dictum quis nunc ac, fringilla fringilla nunc. Aliquam sagittis sapien enim, vitae hendrerit odio hendrerit nec. Donec consectetur aliquet magna quis pellentesque. Vivamus ut dignissim justo. Pellentesque maximus, lorem ac suscipit mattis, ligula sapien aliquet metus, id sagittis velit ipsum at ligula. Donec et sapien commodo, eleifend eros vel, molestie urna.
+                                    Fusce a pellentesque lacus, in fringilla arcu. Quisque eros odio, placerat vel fermentum sed, lobortis sit amet urna. Ut aliquam elit ac lectus lobortis, sed ultrices purus fringilla. Maecenas sollicitudin venenatis tristique. In sagittis viverra placerat. Aenean nulla nulla, blandit non auctor sed, dapibus sit amet sapien. Proin malesuada orci ut vulputate ultrices. Praesent tincidunt arcu nisl, in convallis ipsum fringilla vel. Aenean feugiat at justo ut faucibus. Proin ligula magna, malesuada a urna a, iaculis accumsan nibh. Fusce justo lacus, dictum quis nunc ac, fringilla fringilla nunc. Aliquam sagittis sapien enim, vitae hendrerit odio hendrerit nec. Donec consectetur aliquet magna quis pellentesque. Vivamus ut dignissim justo. Pellentesque maximus, lorem ac suscipit mattis, ligula sapien aliquet metus, id sagittis velit ipsum at ligula. Donec et sapien commodo, eleifend eros vel, molestie urna.
                     </p>
-                        </Col>
-                        <Col md="6">
-                            <img src={BoxImg} />
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <p>Conheça alguns escopos de produtos que já fazem parte do atendimento cotidiano da APOEMA:</p>
-                            <ul>
-                                <li>Artigos para festas</li>
-                                <li>Artigos Escolares</li>
-                                <li>Brinquedos</li>
-                                <li>Cosméticos</li>
-                                <li>EPI's</li>
-                                <li>Eletrodomésticos e similares</li>
-                                <li>Lampadas LED</li>
-                                <li>Panelas metálicas</li>
-                                <li>Módulos fotovoltaicos e inversores, entre outos</li>
-                            </ul>
-                            <p>É possivel contar com a expertise da APOEMA, especialista na gestao de certificaçoes, para realizar a importação de modo simples, ágil eseguro, sem se preocupar com as etapas burcr´ticas do processo evitando prejuízos e atrasos para o seu negócio.</p>
-                        </Col>
-                    </Row>
-                </Container>
+                            </Col>
+                            <Col md="6">
+                                <img src={BoxImg} />
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <p>Conheça alguns escopos de produtos que já fazem parte do atendimento cotidiano da APOEMA:</p>
+                                <ul>
+                                    <li>Artigos para festas</li>
+                                    <li>Artigos Escolares</li>
+                                    <li>Brinquedos</li>
+                                    <li>Cosméticos</li>
+                                    <li>EPI's</li>
+                                    <li>Eletrodomésticos e similares</li>
+                                    <li>Lampadas LED</li>
+                                    <li>Panelas metálicas</li>
+                                    <li>Módulos fotovoltaicos e inversores, entre outos</li>
+                                </ul>
+                                <p>É possivel contar com a expertise da APOEMA, especialista na gestao de certificaçoes, para realizar a importação de modo simples, ágil eseguro, sem se preocupar com as etapas burcr´ticas do processo evitando prejuízos e atrasos para o seu negócio.</p>
+                            </Col>
+                        </Row>
+                    </Container>
+                </section>
                 <section className="spec-contact">
                     <Container>
                         <Row>
