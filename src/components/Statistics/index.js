@@ -15,7 +15,7 @@ const Statistics = () => {
     return (
         <>
             <section className="stats-section">
-                <Container className="stats-container">
+                {/* <Container className="stats-container"> */}
                     <Row noGutters>
                         <Col>
                             <div className="stats-col stats-col-bg-1">
@@ -46,7 +46,7 @@ const Statistics = () => {
                             </div>
                         </Col>
                     </Row>
-                </Container>
+                {/* </Container> */}
             </section>
         </>
     )

@@ -6,7 +6,7 @@ import "./style.css"
 import { Row, Col } from "reactstrap"
 
 
-const InternalHeader = ({ internalHeaderImg, internalHeaderTitle, internalHeaderSubtitle }) => {
+const InternalHeader = ({ internalHeaderImg, internalHeaderTitle, internalHeaderSubtitle, footerImg, headerColor }) => {
 
   const data = useStaticQuery(
     graphql`
@@ -14,7 +14,7 @@ const InternalHeader = ({ internalHeaderImg, internalHeaderTitle, internalHeader
             allImageSharp {
               edges {
                 node {
-                  fluid(maxWidth:1900) {
+                  fluid(maxWidth:1980) {
                     ...GatsbyImageSharpFluid_tracedSVG
                     originalName
                   }
@@ -32,9 +32,22 @@ const InternalHeader = ({ internalHeaderImg, internalHeaderTitle, internalHeader
     .filter(edge => edge.node.fluid.originalName === internalHeaderTitle)
     .map(myImage => <Img fluid={myImage.node.fluid} />);
 
+  const HeaderColor = data.allImageSharp.edges
+    .filter(edge => edge.node.fluid.originalName === headerColor)
+    .map(myImage => <Img fluid={myImage.node.fluid} />);
+
+  // const FooterImg = data.allImageSharp.edges
+  //   .filter(edge => edge.node.fluid.originalName === footerImg)
+  //   .map(myImage => <Img fluid={myImage.node.fluid} />);
+
   return (
     <>
       <div className="internal-header-wrapper">
+        <Row>
+          <div className="header-color">
+            {HeaderColor}
+          </div>
+        </Row>
         <Row>
           <Col sm="12">
             {TheImageYouWant}
@@ -49,6 +62,11 @@ const InternalHeader = ({ internalHeaderImg, internalHeaderTitle, internalHeader
               <p>{internalHeaderSubtitle}</p>
             </div>
           </Col>
+        </Row>
+        <Row>
+          <div className="footer-img">
+            {/* {FooterImg} */}
+          </div>
         </Row>
       </div>
     </>

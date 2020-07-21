@@ -21,14 +21,14 @@ const ApoemaPage = () => (
             <Layout>
                 <SEO title="Apoema" />
                 <section className="internal-first-section">
+                    <InternalHeader
+                        internalHeaderImg="foto-bg_02.jpg"
+                        internalHeaderTitle="apoema-header-title.png"
+                        headerColor="topo-apoema.png"
+                    />
                     <Container className="apoema-wrapper internal-container">
                         <Row className="internal-header-row">
                             <Col>
-                                <InternalHeader
-                                    internalHeaderImg="apoema-header.jpg"
-                                    internalHeaderTitle="apoema-header-title.png"
-                                    internalHeaderSubtitle="Atuamos em todos Brasil e nos paises do Mercosul oferecendo atendimento personalizado
-                            para resolver as demandas de seus clientes relacionadas às áreas de  direito aduaneiro internacional, tributário e empresarial" />
                             </Col>
                         </Row>
                         <Row>
