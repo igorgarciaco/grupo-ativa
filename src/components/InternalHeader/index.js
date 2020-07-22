@@ -63,11 +63,10 @@ const InternalHeader = ({ internalHeaderImg, internalHeaderTitle, internalHeader
             </div>
           </Col>
         </Row>
-        <Row>
+
           <div className="footer-img">
             {/* {FooterImg} */}
           </div>
-        </Row>
       </div>
     </>
   )

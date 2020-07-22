@@ -19,7 +19,7 @@
 .about-section{
     background-image: url("../background/bg-sobre_02.png");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: left bottom;
 }
 
 /* fonts */
