@@ -68,6 +68,9 @@
 .internal-page .inside-nav{
     display: none;
 }
+.internal-page .navbar-toggler{
+    display: none;
+}
 .internal-page .footer-wrapper{
     display: none;
 }
