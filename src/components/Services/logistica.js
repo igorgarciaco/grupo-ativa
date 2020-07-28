@@ -37,7 +37,7 @@ const Logistica = ({ serviceImg, serviceLogo, serviceText }) => {
     <Container className="services-left">
       <Row>
         <Col className="img-left-col" md="6"
-          data-sal="slide-right"
+          data-sal="slide-left"
           data-sal-delay="1900"
           data-sal-easing="ease"
           data-sal-duration="600"
@@ -48,7 +48,7 @@ const Logistica = ({ serviceImg, serviceLogo, serviceText }) => {
           <br></br>
           <br></br>
           <div
-          data-sal="slide-right"
+          data-sal="slide-left"
           data-sal-delay="300"
           data-sal-easing="ease"
           data-sal-duration="600"
@@ -56,7 +56,7 @@ const Logistica = ({ serviceImg, serviceLogo, serviceText }) => {
             <p>{serviceText}</p>
           </div>
           <div className="service-logo service-logo-left logistica-logo" id="logistica"
-          data-sal="slide-right"
+          data-sal="slide-left"
           data-sal-delay="300"
           data-sal-easing="ease"
           data-sal-duration="600"
@@ -64,7 +64,7 @@ const Logistica = ({ serviceImg, serviceLogo, serviceText }) => {
             {TheLogoYouWant}
           </div><br />
           <Link to="/logistica/" className="btn-more-red"
-          data-sal="slide-right"
+          data-sal="slide-left"
           data-sal-delay="300"
           data-sal-easing="ease"
           data-sal-duration="600"

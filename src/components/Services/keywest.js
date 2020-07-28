@@ -46,26 +46,26 @@ const KeyWest = ({ serviceImg, serviceLogo, serviceText }) => {
         </Col>
         <Col className="text-col" md="5">
           <div
-                    data-sal="slide-left"
-                    data-sal-delay="300"
-                    data-sal-easing="ease"
-                    data-sal-duration="600"
+            data-sal="slide-left"
+            data-sal-delay="300"
+            data-sal-easing="ease"
+            data-sal-duration="600"
           >
-          <p>{serviceText}</p>
+            <p>{serviceText}</p>
           </div>
           <div className="service-logo service-logo-left" id="keyWest"
-           data-sal="slide-left"
-           data-sal-delay="300"
-           data-sal-easing="ease"
-           data-sal-duration="600"
+            data-sal="slide-left"
+            data-sal-delay="300"
+            data-sal-easing="ease"
+            data-sal-duration="600"
           >
             {TheLogoYouWant}
           </div>
           <Link to="/keywest/" className="btn-more-keywest"
-           data-sal="slide-left"
-           data-sal-delay="300"
-           data-sal-easing="ease"
-           data-sal-duration="600"
+            data-sal="slide-left"
+            data-sal-delay="300"
+            data-sal-easing="ease"
+            data-sal-duration="600"
           >Saiba mais</Link>
         </Col>
         <Col md="1"></Col>
