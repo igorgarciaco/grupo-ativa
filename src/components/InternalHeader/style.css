@@ -34,8 +34,21 @@
 .header-color{
     width: 100%;
     position: absolute;
-    z-index: 999;
+    z-index: 998;
     left: 50%;
     transform: translateX(-50%);
     /* margin-top: -110px; */
+}
+.lighting{
+    background-image: url("../../background/sobrepor-degrade-direita_02.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top: 0;
+    background-size: 40%;
+    z-index: 999;
+
 }

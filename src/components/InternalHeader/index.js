@@ -57,6 +57,7 @@ const InternalHeader = ({ internalHeaderImg, internalHeaderTitle, footerImg }) =
             </Col>
           </Row>
         </Container>
+        <div className="lighting"></div>
         <div className="footer-img">
           {/* {FooterImg} */}
         </div>
