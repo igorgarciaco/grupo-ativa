@@ -13,6 +13,7 @@ import BoxImg from "../images/internal-content/apoema-img-1.png"
 import ApoemaForm from "../components/SpecialistForm/ApoemaForm.js"
 import SpecialistProfile from "../components/SpecialistProfile"
 import InternalHeader from "../components/InternalHeader"
+import InternalColor from "../components/InternalHeader/color.js"
 import InternalLogo from "../components/InternalLogo"
 
 const ApoemaPage = () => (
@@ -21,10 +22,12 @@ const ApoemaPage = () => (
             <Layout>
                 <SEO title="Apoema" />
                 <section className="internal-first-section">
+                    <InternalColor 
+                        headerColor="topo-apoema.png"
+                    />
                     <InternalHeader
                         internalHeaderImg="foto-bg_02.jpg"
                         internalHeaderTitle="apoema-header-title.png"
-                        headerColor="topo-apoema.png"
                     />
                     <Container className="apoema-wrapper internal-container">
                         <Row className="internal-header-row">
