@@ -43,6 +43,19 @@
 .apoema-color{
     color: #F38138;
 }
+.apoema .internal-title{
+    padding-left: 40px;
+    padding-top: 40px;
+    background-image: url("../background/página-apoema_04.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+.apoema .spec-contact .container{
+    background-image: url("../background/página-apoema_14.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 60%;
+}
 .apoema-specialist .specialist-card .avatar-thumb{
     border-color: #F38138;
 }

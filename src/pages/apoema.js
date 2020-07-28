@@ -18,7 +18,7 @@ import InternalLogo from "../components/InternalLogo"
 
 const ApoemaPage = () => (
     <>
-        <div className="internal-page">
+        <div className="internal-page apoema">
             <Layout>
                 <SEO title="Apoema" />
                 <section className="internal-first-section">
@@ -72,7 +72,7 @@ const ApoemaPage = () => (
                     <Container>
                         <Row>
                             <Col md="6">
-                                <h2 className="text-uppercase">Fale com um especialista</h2>
+                                <h2 className="text-uppercase ">Fale com um especialista</h2>
                             </Col>
                             <Col md="6">
                                 <div className="whatsapp-link">
