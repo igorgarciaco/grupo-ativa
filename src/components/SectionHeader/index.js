@@ -8,7 +8,11 @@ const SectionHeader = () => {
     return (
         <>
             <section className="first-section-header">
-                <Container className="section-header">
+                <Container className="section-header"
+                 data-sal="slide-left"
+                 data-sal-delay="300"
+                 data-sal-easing="ease"
+                 data-sal-duration="600">
                     <Row>
                         <Col className="text-center section-header-col">
                             <h1 className="text-uppercase section-title">Nossos <span className="red-text">serviços</span></h1>

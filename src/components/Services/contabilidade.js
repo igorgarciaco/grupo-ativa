@@ -37,17 +37,34 @@ const Contabilidade = ({ serviceImg, serviceLogo, serviceText }) => {
     <Container className="services-right">
       <Row>
         <Col md="1"></Col>
-        <Col md="3" className="contabilidade-logo-col" id="contabilidade">
+        <Col md="3" className="contabilidade-logo-col" id="contabilidade"
+          data-sal="slide-right"
+          data-sal-delay="300"
+          data-sal-easing="ease"
+          data-sal-duration="600"
+        >
           <div className="contabilidade-logo">
             {TheLogoYouWant}
           </div>
         </Col>
-        <Col className="text-col text-contabilidade" md="4">
+        <Col className="text-col text-contabilidade" md="4"
+          className="service-text"
+          data-sal="slide-right"
+          data-sal-delay="300"
+          data-sal-easing="ease"
+          data-sal-duration="600"
+        >
           <h2>CONTABILIDADE</h2>
           <p>{serviceText}</p>
           <Link className="btn-more-red" to="/contabilidade/">Saiba mais</Link>
         </Col>
-        <Col className="img-right-col" md="4">
+        <Col className="img-right-col"
+          md="4"
+          data-sal="slide-right"
+          data-sal-delay="1900"
+          data-sal-easing="ease"
+          data-sal-duration="600"
+        >
           {TheImageYouWant}
         </Col>
       </Row>
