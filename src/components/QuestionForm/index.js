@@ -27,7 +27,6 @@ const QuestionForm = () => {
                                      , gostarámos
                                 muito de receber a sua dúvida e ou sugestão.
                                 </label>
-
                             </Col>
                             <Col md="12">
 
