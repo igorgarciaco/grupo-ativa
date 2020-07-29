@@ -34,7 +34,7 @@ const Unit = ({ unitImg, unitName, unitAdress, unitMail, unitPhone,
 
     return (
         <>
-            <Container>
+            <Container className="unit-container">
               <Row>
                 <Col md="5"></Col>
                 <Col md="7">

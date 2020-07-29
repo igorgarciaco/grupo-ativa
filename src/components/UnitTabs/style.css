@@ -3,44 +3,6 @@
     background-repeat: no-repeat;
     background-position: 15px 65px;
 }
-.unit-tabs .nav-item{
-    border-top: 1px solid #B62528;
-    border-bottom: 1px solid #B62528;
-    border-left: 1px solid #B62528;
-    background-image: url("../../background/letreiro-ativa-unidades_05.png");
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.unit-tabs .nav-item:first-child{
-    border-left: 0;
-}
-.unit-tabs .nav-link{
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 10px !important;
-    height: 100%;
-}
-.unit-tabs .nav-link:hover{
-    padding: 10px;
-    border-color: transparent;
-}
-.unit-tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
-    border-color: transparent;
-    position: relative;
-    background-color: transparent;
-}
-.unit-tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active::after{
-    content: '';
-    width: 30px; 
-    height: 10px; 
-    border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
-    border-top: 25px solid #B62528;
-    position: absolute;
-    bottom: 0;
-    margin-bottom: -26px;
-    left: 43%;
-}
 .unit-tabs ul{
     margin: 0;
     width: 100%;
@@ -77,8 +39,43 @@
 .unit-frame{
     background-image: url("../../background/moldura-foto-unidade_05.png");
     background-repeat: no-repeat;
-    
 }
 .unit-frame img{
     border-radius: 5px;
 }
+.react-tabs__tab{
+    padding: 15px;
+    border: 1px solid #B62528;
+    font-family: 'Metropolis-Bold';
+    text-transform: uppercase;
+    border-radius: 0;
+    background-image: url("../../background/letreiro-ativa-unidades_05.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.react-tabs__tab-list{
+    border: none;
+}
+.react-tabs__tab--selected::after{
+    content: '';
+    width: 30px; 
+    height: 10px; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #B62528;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -26px;
+    left: 43%;
+}
+.unit-container{
+    margin-top: 50px;
+}
+.react-tabs__tab:focus{
+    /* box-shadow: none;
+    border-color: #B62528; */
+    display: none;
+}
+/* .react-tabs__tab--selected::after, .react-tabs__tab:focus{
+    display: none;
+} */

@@ -634,7 +634,12 @@ pre tt:after {
 }
 /* /shared class names */
 
-
+section{
+  font-family: 'Metropolis-Regular';
+}
+h1, h2{
+  font-family: 'Metropolis-Bold';
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

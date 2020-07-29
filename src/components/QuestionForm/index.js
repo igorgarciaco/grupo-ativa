@@ -23,7 +23,7 @@ const QuestionForm = () => {
                             <Col md="12">
                                 <label>
                                     Olá &nbsp;
-                                    <input size="10" type="text" name="fullName" id="fullName" placeholder="seu nome aqui" />
+                                    <input size="13" type="text" name="fullName" id="fullName" placeholder="seu nome aqui" />
                                      , gostarámos
                                 muito de receber a sua dúvida e ou sugestão.
                                 </label>
