@@ -28,8 +28,13 @@ const AboutText = () => {
             <div className="first-redline"></div>
             <div className="second-redline"></div>
             <div className="about-paragraph">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non justo sollicitudin odio sodales ornare vitae vel eros. Nullam mollis, arcu at dignissim lacinia, massa enim varius nibh, vel fringilla velit eros sed ex. Integer nec venenatis arcu. Aliquam fringilla commodo ex. Nulla facilisi. Maecenas at viverra justo, ut tincidunt lorem. Donec feugiat eleifend lobortis. Integer finibus nunc sed luctus consectetur. Etiam placerat justo quis nisi luctus, id faucibus tortor sagittis. In hac habitasse platea dictumst. Mauris in ante tempor, pellentesque libero quis, hendrerit lectus. Ut feugiat varius sodales. Pellentesque ultrices ligula ac nisl pulvinar condimentum. Nullam hendrerit, felis eu interdum dignissim, neque lectus tempor libero, a congue magna sem vel sem.</p>
-                <p>Curabitur semper lorem in ligula ornare, gravida rutrum nunc venenatis. Quisque interdum viverra tellus eu ullamcorper. In fermentum metus quis est vehicula, sed porta elit gravida. Curabitur et hendrerit purus.</p>
+                <p>
+                  Desde 1995 atuando no mercado nacional e internacional, com soluções completas e personalizadas em exportação e importação integradas a uma equipe multidisciplinar, comprometida em oferecer atendimento de forma rápida e eficaz, com vasta experiência no comércio exterior, garantindo agilidade nos processos e otimização de custos, além de oferecer assessoria em exportação e importação; logística e armazéns gerais, transporte rodoviário nacional e internacional de cargas, assessoria jurídica na área tributária e aduaneira, certificações de produtos junto ao INMETRO e ANATEL e serviços contábeis com ênfase em benefícios fiscais.	
+
+                </p>
+                <p>
+                O Grupo Ativa está presente em pontos estratégicos, próximos à fronteiras e Aduanas de Carga, preparado para realizar processos de desembaraço aduaneiro em todos os portos do Brasil, permitindo oferecer aos seus clientes maior liberdade para escolher a melhor opção de desembaraço de sua mercadoria com agilidade e segurança.	
+                  </p>
             </div>
             <p> <Img fixed={data.placeholderImage.childImageSharp.fixed}/> </p>
         </Col>

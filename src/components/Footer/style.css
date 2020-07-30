@@ -35,7 +35,9 @@
 .footer-wrapper .foo-contact p{
     margin: 0;
 }
-
+.footer-wrapper a{
+    color: #222222;
+}
 @media (max-width: 767px) {
     .footer-wrapper{
         padding: 0;

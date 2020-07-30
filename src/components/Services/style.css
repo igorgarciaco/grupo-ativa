@@ -44,8 +44,8 @@
 .services-right .text-col {
     padding-top: 50px;
 }
-.btn-more-red {
-    border: 2px solid #B62528;
+.btn-more {
+    border: 2px solid;
     background-color: transparent;
     color: #000000;
     border-radius: 10px;
@@ -53,37 +53,28 @@
     margin-top: 20px;
     font-weight: 500;
 }
-.btn-more-red:hover {
+.btn-red{
+    border-color: #B62528;
+}
+.btn-red:hover {
     background-color: #B62528;
     border: 2px solid #B62528;
     color: #ffffff;
 }
-.btn-more-apoema {
+.btn-orange {
     border: 2px solid #E7833A;
-    background-color: transparent;
-    color: #000000;
-    border-radius: 10px;
-    padding: 10px 60px;
-    margin-top: 20px;
-    font-weight: 500;
     float: right;
 }
-.btn-more-apoema:hover {
+.btn-orange:hover {
     background-color: #E7833A;
     border: 2px solid #E7833A;
     color: #ffffff;
 }
-.btn-more-keywest {
+.btn-yellow {
     border: 2px solid #F5E743;
-    background-color: transparent;
-    color: #000000;
-    border-radius: 10px;
-    padding: 10px 60px;
-    margin-top: 20px;
-    font-weight: 500;
     float: right;
 }
-.btn-more-keywest:hover {
+.btn-yellow:hover {
     background-color: #F5E743;
     border: 2px solid #F5E743;
     color: #ffffff;
@@ -129,4 +120,62 @@
 }
 #logistica {
     margin-top: -350px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .text-col{
+        padding: 5px;
+        border: none;
+
+    }
+    .img-right-col{
+        border: none;
+        padding: 5px;
+        display: none;
+    }
+    .img-left-col{
+        border: none;
+        padding: 5px;
+        display: none;
+    }
+    .contabilidade-logo-col{
+        border: none;
+    }
+    .service-logo{
+        width: 100px;
+        margin: auto;
+    }
+    .contabilidade-logo{
+        width: 80px;
+        float: none;
+        margin: auto;
+    }
+    .text-col p{
+        padding:5px;
+    }
+    .service-logo-left{
+        margin-top: -200px;
+    }
+    #logistica{
+        margin-top: -200px;
+    }
+    .services-right .text-col{
+        padding: 5px;
+    }
+    .services-left{
+        margin-bottom: 50px;
+    }
+    .services-right{
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    .services-left .service-logo{
+        float: none;
+    }
+    .btn-more{
+        margin: 100px 0 30px;
+    }
+    .services-left .text-col p{
+        margin-top: 50px;
+        padding-top: 50px;
+    }
 }

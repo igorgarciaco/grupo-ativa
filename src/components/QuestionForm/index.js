@@ -14,7 +14,9 @@ const QuestionForm = () => {
                         <h2 className="section-title text-uppercase"> <span>DÚVIDAS?</span> Podemos ajuda-lo </h2>
                     </Row>
                     <Row>
-                        <p className="section-subtitle">Mande a sua dúvida, opinião ou questo por aqui. Nosso especialistas estão aqui <br /> para ajuda-lo a traçar um caminho para o sucesso.</p>
+                        <p className="section-subtitle">
+                        Estamos aqui para ajudá-lo. <br /> O Grupo Ativa conta com uma série de especialistas em cada setor, prontos para atender suas dúvidas e/ou sugestões.
+                            </p>
                     </Row>
                 </Container>
                 <Container >
@@ -24,20 +26,20 @@ const QuestionForm = () => {
                                 <label>
                                     Olá &nbsp;
                                     <input size="13" type="text" name="fullName" id="fullName" placeholder="seu nome aqui" />
-                                     , gostarámos
-                                muito de receber a sua dúvida e ou sugestão.
+                                     , será uma satisfação ler sua mensagem. 
+                                
                                 </label>
                             </Col>
                             <Col md="12">
 
                                 <label>
-                                    Informe seu  <input size="10" type="email" name="email" id="email" placeholder="e-mail aqui." />
+                                Para que possamos retornar, <input size="10" type="email" name="email" id="email" placeholder="e-mail aqui." />
                                 </label>
                             </Col>
                             <Col md="12">
 
                                 <label>
-                                    Ok, agora escreva a sua <input size="11" type="text" name="text" id="message" placeholder="mensagem aqui." />
+                                    Em que podemos lhe ajudar? <br /><input size="13" type="text" name="text" id="message" placeholder="mensagem aqui." />
                                 </label>
                             </Col>
                             <Button className="btn-question-form">ENVIAR</Button>

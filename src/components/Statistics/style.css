@@ -2,6 +2,7 @@
     background-image: url("../../background/bg-numeros_02.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 .stats-container{
     padding: 0;
@@ -12,15 +13,22 @@
 }
 .stats-col-bg-1{
     background-color: rgba(182,37,40,0.8);
+    height: 100%;
 }
 .stats-col-bg-2{
     background-color: rgba(182,37,40,0.7);
+    height: 100%;
+
 }
 .stats-col-bg-3{
     background-color: rgba(182,37,40,0.6);
+    height: 100%;
+
 }
 .stats-col-bg-4{
     background-color: rgba(182,37,40,0.5);
+    height: 100%;
+
 }
 .stats-number{
     color: #ffffff;

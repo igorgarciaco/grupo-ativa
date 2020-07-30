@@ -13,23 +13,23 @@ export default () => (
             <Tabs defaultIndex="1">
                 <TabList>
                     <Tab>
-                        DIONÍSIO CERQUEIRA<br />
-                            /CS
-                        </Tab>
-                    <Tab>
-                        ITAJAI<br />
+                        DIONÍSIO CERQUEIRA
                             /SC
                         </Tab>
                     <Tab>
-                        são francisco do sul<br />
+                        ITAJAI
+                            /SC
+                        </Tab>
+                    <Tab>
+                        são francisco do sul
                             /sc
                         </Tab>
                     <Tab>
-                        foz do iguaçu<br />
+                        foz do iguaçu
                             /pr
                         </Tab>
                     <Tab>
-                        são paulo<br />
+                        são paulo
                             /sp
                         </Tab>
                 </TabList>

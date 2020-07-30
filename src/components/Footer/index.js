@@ -72,10 +72,10 @@ const Footer = () => {
                                     <NavLink href="#">INÍCIO</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="#">SOBRE</NavLink>
+                                    <NavLink href="#aboutSection">SOBRE</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="#">SERVIÇOS</NavLink>
+                                    <NavLink href="#assessoria">SERVIÇOS</NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink disabled href="#">TRABALHE CONOSCO</NavLink>
@@ -93,16 +93,22 @@ const Footer = () => {
                         </Col>
                         <Col md="7">
                             <div className="foo-social-icons">
-                                <Icon icon={facebookOutlined} width="35" height="35" className="foo-social-icon"/>
-                                <Icon icon={instagramOutlined} width="35" height="35" className="foo-social-icon" />
-                                <Icon icon={linkedinOutlined} width="35" height="35" className="foo-social-icon"/>
+                                <a href="https://www.facebook.com/grupoativaoficial/">
+                                    <Icon icon={facebookOutlined} width="35" height="35" className="foo-social-icon" />
+                                </a>
+                                <a href="https://www.instagram.com/grupo.ativa/">
+                                    <Icon icon={instagramOutlined} width="35" height="35" className="foo-social-icon" />
+                                </a>
+                                <a href="https://www.linkedin.com/company/grupoativa">
+                                    <Icon icon={linkedinOutlined} width="35" height="35" className="foo-social-icon" />
+                                </a>
                             </div>
-                           
+
                         </Col>
                     </Row>
                     <Row>
                         <Col md="12">
-                        <div className="foo-contact">
+                            <div className="foo-contact">
                                 <p>(47) 2104 6900</p>
                                 <p>contato@grupoativa.net</p>
                             </div>

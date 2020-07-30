@@ -56,7 +56,7 @@ const Contabilidade = ({ serviceImg, serviceLogo, serviceText }) => {
         >
           <h2>CONTABILIDADE</h2>
           <p>{serviceText}</p>
-          <Link className="btn-more-red" to="/contabilidade/">Saiba mais</Link>
+          <Link className="btn-more btn-red btn-service" to="/contabilidade/">Saiba mais</Link>
         </Col>
         <Col className="img-right-col"
           md="4"

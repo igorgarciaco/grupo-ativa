@@ -59,7 +59,7 @@ const Apoema = ({ serviceImg, serviceLogo, serviceText }) => {
           <div className="service-logo service-logo-left" id="apoema">
             {TheLogoYouWant}
           </div>
-          <Link className="btn-more-apoema" to="/apoema/"
+          <Link className="btn-more btn-orange btn-service" to="/apoema/"
             data-sal="slide-left"
             data-sal-delay="300"
             data-sal-easing="ease"

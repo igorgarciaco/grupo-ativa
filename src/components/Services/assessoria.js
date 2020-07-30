@@ -61,7 +61,7 @@ const Assessoria = ({ serviceImg, serviceLogo, serviceText }) => {
             data-sal-easing="ease"
             data-sal-duration="600"
           >
-            <Link className="btn-more-red" to="/assessoria/">Saiba mais</Link>
+            <Link className="btn-more btn-red btn-service" to="/assessoria/">Saiba mais</Link>
           </div>
         </Col>
         <Col className="img-right-col" md="6"

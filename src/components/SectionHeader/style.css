@@ -26,3 +26,15 @@
 .first-section-header .section-title{
     padding-top: 50px;
 }
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .section-subtitle{
+        padding: 5px;
+    }
+    .section-header-col{
+        background-size: 80%;
+        border: none;
+    }
+    .first-section-header .section-title{
+        padding: 5px;
+    }
+  }

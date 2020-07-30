@@ -11,6 +11,9 @@
 .unit-tabs li{
     width: 20%;
     text-align: center;
+    height: 80px;
+    font-size: 15px;
+    padding-top: 50px;
 }
 .unit-tabs .tab-pane{
     padding-top: 50px;
@@ -79,3 +82,20 @@
 /* .react-tabs__tab--selected::after, .react-tabs__tab:focus{
     display: none;
 } */
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .unit-tabs li{
+        font-size: 10px;
+        padding-top: 10px;
+        height: unset;
+    }
+    .react-tabs__tab{
+        padding: 0;
+        background-size: 80%;
+    }
+    #two-lines{
+        padding-top: 25px;
+    }
+    .one-line{
+        padding-top: 40px;
+    }
+}

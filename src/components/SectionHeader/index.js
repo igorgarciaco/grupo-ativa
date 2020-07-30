@@ -17,7 +17,9 @@ const SectionHeader = () => {
                         <Col className="text-center section-header-col">
                             <h1 className="text-uppercase section-title">Nossos <span className="red-text">serviços</span></h1>
                             <div className="redline"></div>
-                            <p className="section-subtitle">O Grupo Ativa possui unidades estratégicamente localizadas para melhor atender seus clientes</p>
+                            <p className="section-subtitle">
+                            Estrategicamente posicionadas para garantir agilidade e comodidade nas soluções do Grupo Ativa, confira abaixo mais informações de nossas Unidades.
+                                </p>
                         </Col>
                         <Col md="1"></Col>
                     </Row>

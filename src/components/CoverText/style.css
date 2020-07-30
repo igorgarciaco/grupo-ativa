@@ -17,3 +17,8 @@
     background-color: #B62528;
     padding: 0 10px 8px;
 }
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .cover-title{
+      font-size: 25px;
+    }
+  }

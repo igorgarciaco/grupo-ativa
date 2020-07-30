@@ -56,7 +56,7 @@ const Juridico = ({ serviceImg, serviceLogo, serviceText }) => {
           >
             <p>{serviceText}</p>
           </div><br></br>
-          <Link className="btn-more-red"
+          <Link className="btn-more btn-red btn-service"
             data-sal="slide-right"
             data-sal-delay="300"
             data-sal-easing="ease"

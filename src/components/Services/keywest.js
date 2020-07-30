@@ -61,7 +61,7 @@ const KeyWest = ({ serviceImg, serviceLogo, serviceText }) => {
           >
             {TheLogoYouWant}
           </div>
-          <Link to="/keywest/" className="btn-more-keywest"
+          <Link to="/keywest/" className="btn-more btn-yellow btn-service"
             data-sal="slide-left"
             data-sal-delay="300"
             data-sal-easing="ease"

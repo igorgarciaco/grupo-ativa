@@ -63,7 +63,7 @@ const Logistica = ({ serviceImg, serviceLogo, serviceText }) => {
           >
             {TheLogoYouWant}
           </div><br />
-          <Link to="/logistica/" className="btn-more-red"
+          <Link to="/logistica/" className="btn-more btn-red btn-service"
           data-sal="slide-left"
           data-sal-delay="300"
           data-sal-easing="ease"
