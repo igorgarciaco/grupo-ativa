@@ -45,13 +45,19 @@ const KeyWest = ({ serviceImg, serviceLogo, serviceText }) => {
           {TheImageYouWant}
         </Col>
         <Col className="text-col" md="5">
+          <div className="logo-mobile">
+            {TheLogoYouWant}
+          </div>
           <div
+            className="service-text"
             data-sal="slide-left"
             data-sal-delay="300"
             data-sal-easing="ease"
             data-sal-duration="600"
           >
             <p>{serviceText}</p>
+            <br />
+            <Link to="/keywest/" className="btn-more btn-yellow btn-service" >Saiba mais</Link>
           </div>
           <div className="service-logo service-logo-left" id="keyWest"
             data-sal="slide-left"
@@ -61,15 +67,10 @@ const KeyWest = ({ serviceImg, serviceLogo, serviceText }) => {
           >
             {TheLogoYouWant}
           </div>
-          <Link to="/keywest/" className="btn-more btn-yellow btn-service"
-            data-sal="slide-left"
-            data-sal-delay="300"
-            data-sal-easing="ease"
-            data-sal-duration="600"
-          >Saiba mais</Link>
         </Col>
         <Col md="1"></Col>
       </Row>
+
     </Container>
   )
 }

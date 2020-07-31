@@ -68,3 +68,17 @@ li.nav-item.show{
 .dropdown-item.active, .dropdown-item:active{
     background-color: #B62528 !important;
 }
+.navbar-light .navbar-toggler{
+    color: #ffffff
+}
+.navbar-light .navbar-toggler-icon{
+    filter: invert(1);
+}
+@media (max-width: 767px){
+    #navbar{
+        background: #222222;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        text-align: center;
+    }
+}

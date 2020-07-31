@@ -34,10 +34,13 @@ const Juridico = ({ serviceImg, serviceLogo, serviceText }) => {
 
 
   return (
-    <Container className="services-right">
+    <Container className="services-right juridico">
       <Row>
         <Col md="1"></Col>
         <Col className="text-col" md="5">
+        <div className="logo-mobile">
+            {TheLogoYouWant}
+          </div>
           <div className="service-logo" id="juridico"
             data-sal="slide-right"
             data-sal-delay="300"
@@ -46,22 +49,18 @@ const Juridico = ({ serviceImg, serviceLogo, serviceText }) => {
           >
             {TheLogoYouWant}
           </div>
-          <br></br>
-          <br></br>
+          
           <div
+            className="service-text"
             data-sal="slide-right"
             data-sal-delay="300"
             data-sal-easing="ease"
             data-sal-duration="600"
           >
             <p>{serviceText}</p>
-          </div><br></br>
-          <Link className="btn-more btn-red btn-service"
-            data-sal="slide-right"
-            data-sal-delay="300"
-            data-sal-easing="ease"
-            data-sal-duration="600"
-          >Saiba mais</Link>
+            <br></br>
+            <Link className="btn-more btn-red btn-service">Saiba mais</Link>
+          </div>
         </Col>
         <Col className="img-right-col" md="6"
           data-sal="slide-right"

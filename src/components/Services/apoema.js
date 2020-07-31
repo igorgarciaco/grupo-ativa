@@ -45,6 +45,9 @@ const Apoema = ({ serviceImg, serviceLogo, serviceText }) => {
           {TheImageYouWant}
         </Col>
         <Col className="text-col" md="5">
+          <div className="logo-mobile">
+          {TheLogoYouWant}
+          </div>
           <div
             className="service-text"
             data-sal="slide-left"
@@ -55,16 +58,11 @@ const Apoema = ({ serviceImg, serviceLogo, serviceText }) => {
             <p>
               {serviceText}
             </p>
+          <Link className="btn-more btn-orange btn-service" to="/apoema/">Saiba mais</Link>
           </div>
           <div className="service-logo service-logo-left" id="apoema">
             {TheLogoYouWant}
           </div>
-          <Link className="btn-more btn-orange btn-service" to="/apoema/"
-            data-sal="slide-left"
-            data-sal-delay="300"
-            data-sal-easing="ease"
-            data-sal-duration="600"
-          >Saiba mais</Link>
         </Col>
         <Col md="1"></Col>
       </Row>

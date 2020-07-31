@@ -18,7 +18,7 @@ import InternalLogo from "../components/InternalLogo"
 
 const ApoemaPage = () => (
     <>
-        <div className="internal-page apoema">
+        <div className="internal-page apoema orange">
             <Layout>
                 <SEO title="Apoema" />
                 <section className="internal-first-section">

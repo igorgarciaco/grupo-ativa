@@ -2,7 +2,7 @@
     background-color: #e9e9e9;
     padding-top: 50px;
     font-family: 'Metropolis-Light';
-    background-image: url("../background/apoema_footer_bg.png");
+    
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100%;
@@ -40,8 +40,17 @@
     font-family: 'Metropolis-Bold';
 }
 /* themes */
+.orange .spec-contact{
+    background-image: url("../background/apoema_footer_bg.png");
+}
+.red .spec-contact{
+    background-image: url("../background/asessoria_footer_bg.png");
+}
 .apoema-color{
     color: #F38138;
+}
+.red-color{
+    color: #B62528;
 }
 .apoema .internal-title{
     padding-left: 40px;
@@ -93,4 +102,17 @@
     background-position: bottom;
     background-size: 100%;
     padding-bottom: 80px;
+}
+
+ .internal-title-2{
+    background-repeat: no-repeat;
+    background-size: 80%;
+    padding: 40px 0 0 40px;
+    color: transparent;
+}
+.assessoria .internal-title-2{
+    background-image: url("../background/assessoria-h2.png");
+}
+.contabilidade .internal-title-2{
+    background-image: url("../background/contabilidade-h2.png");
 }

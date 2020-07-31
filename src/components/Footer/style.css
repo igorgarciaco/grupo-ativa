@@ -42,4 +42,11 @@
     .footer-wrapper{
         padding: 0;
     }
+    .foo-logo{
+        width: 80% !important;
+        padding: 15px;
+    }
+    .footer-wrapper .foo-contact{
+        margin: 0;
+    }
 }
