@@ -8,7 +8,6 @@ import "./internal.css"
 import { Container, Row, Col } from "reactstrap"
 
 import WhatsAppLogo from "../background/whatsapp-logo-1.png"
-import BoxImg from "../images/internal-content/assessoria-img-1.jpg"
 
 import AssessoriaForm from "../components/SpecialistForm/AssessoriaForm.js"
 import SpecialistProfile from "../components/SpecialistProfile"
@@ -28,7 +27,6 @@ const ApoemaPage = () => (
                     </p>
                         </Col>
                         <Col md="6">
-                            <img src={BoxImg} />
                         </Col>
                     </Row>
                     <Row>

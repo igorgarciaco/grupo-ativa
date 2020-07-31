@@ -1,4 +1,5 @@
 import React from "react"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -8,7 +9,6 @@ import "./internal.css"
 import { Container, Row, Col } from "reactstrap"
 
 import WhatsAppLogo from "../background/whatsapp-logo-1.png"
-import BoxImg from "../images/internal-content/apoema-img-1.png"
 
 import ApoemaForm from "../components/SpecialistForm/ApoemaForm.js"
 import SpecialistProfile from "../components/SpecialistProfile"
@@ -16,13 +16,43 @@ import InternalHeader from "../components/InternalHeader"
 import InternalColor from "../components/InternalHeader/color.js"
 import InternalLogo from "../components/InternalLogo"
 
-const ApoemaPage = () => (
+
+export const query = graphql`
+query {
+  allMarkdownRemark(
+    filter: {fileAbsolutePath: {regex: "/apoema/"}}
+  ) {
+      edges {
+        node {
+          frontmatter {
+            title
+          }
+          html
+        }
+      }
+    }
+}
+`
+
+const md = (data) => {
+    const { frontmatter, html } = data.data.allMarkdownRemark.edges[0].node
+    console.log(frontmatter.title)
+    return (<div>
+        {/* <h1>{frontmatter.title}</h1>
+      <p>{frontmatter.date}</p> */}
+        <div
+            dangerouslySetInnerHTML={{ __html: html }}
+        />
+    </div>)
+}
+
+const ApoemaPage = ({ data }) => (
     <>
         <div className="internal-page apoema orange">
             <Layout>
                 <SEO title="Apoema" />
                 <section className="internal-first-section">
-                    <InternalColor 
+                    <InternalColor
                         headerColor="topo-apoema.png"
                     />
                     <InternalHeader
@@ -39,32 +69,10 @@ const ApoemaPage = () => (
                                 <h2 className="text-uppercase internal-title">
                                     <span className="apoema-color">APOEMA</span> COMÉRCIO E SERVIÇOS
                             </h2>
-                                <p align="justify">
-                                    orem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, ligula vel luctus ullamcorper, elit neque varius dui, eget congue nibh justo a urna. Donec sollicitudin varius metus et ornare. Maecenas maximus placerat volutpat. Curabitur facilisis justo sed neque consequat varius. Nulla lacinia, lectus eget ultrices ullamcorper, felis ipsum porta sem, at gravida velit est nec orci. Integer eget tellus vitae tellus pulvinar scelerisque congue in ligula. Phasellus dictum egestas turpis, convallis condimentum leo.
-
-                                    Fusce a pellentesque lacus, in fringilla arcu. Quisque eros odio, placerat vel fermentum sed, lobortis sit amet urna. Ut aliquam elit ac lectus lobortis, sed ultrices purus fringilla. Maecenas sollicitudin venenatis tristique. In sagittis viverra placerat. Aenean nulla nulla, blandit non auctor sed, dapibus sit amet sapien. Proin malesuada orci ut vulputate ultrices. Praesent tincidunt arcu nisl, in convallis ipsum fringilla vel. Aenean feugiat at justo ut faucibus. Proin ligula magna, malesuada a urna a, iaculis accumsan nibh. Fusce justo lacus, dictum quis nunc ac, fringilla fringilla nunc. Aliquam sagittis sapien enim, vitae hendrerit odio hendrerit nec. Donec consectetur aliquet magna quis pellentesque. Vivamus ut dignissim justo. Pellentesque maximus, lorem ac suscipit mattis, ligula sapien aliquet metus, id sagittis velit ipsum at ligula. Donec et sapien commodo, eleifend eros vel, molestie urna.
-                    </p>
-                            </Col>
-                            <Col md="6">
-                                <img src={BoxImg} />
                             </Col>
                         </Row>
                         <Row>
-                            <Col>
-                                <p>Conheça alguns escopos de produtos que já fazem parte do atendimento cotidiano da APOEMA:</p>
-                                <ul>
-                                    <li>Artigos para festas</li>
-                                    <li>Artigos Escolares</li>
-                                    <li>Brinquedos</li>
-                                    <li>Cosméticos</li>
-                                    <li>EPI's</li>
-                                    <li>Eletrodomésticos e similares</li>
-                                    <li>Lampadas LED</li>
-                                    <li>Panelas metálicas</li>
-                                    <li>Módulos fotovoltaicos e inversores, entre outos</li>
-                                </ul>
-                                <p>É possivel contar com a expertise da APOEMA, especialista na gestao de certificaçoes, para realizar a importação de modo simples, ágil eseguro, sem se preocupar com as etapas burcr´ticas do processo evitando prejuízos e atrasos para o seu negócio.</p>
-                            </Col>
+                            {md({ data })}
                         </Row>
                     </Container>
                 </section>

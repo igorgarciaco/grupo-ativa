@@ -10,6 +10,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `uploads`,
+        path: `${__dirname}/src/markdown-pages/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
@@ -21,7 +28,28 @@ module.exports = {
         path: `${__dirname}/src/markdown-pages`,
       },
     },
-    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-relative-images",
+            options: {
+              name: "uploads"
+            },
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 400,
+              linkImagesToOriginal: false
+            },
+          },
+          `gatsby-remark-lazy-load`
+        ],
+      },
+    },
+      `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -39,7 +67,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-anchor-links`,
       options: {
-      offset: -10
+        offset: -10
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

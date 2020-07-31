@@ -116,3 +116,11 @@
 .contabilidade .internal-title-2{
     background-image: url("../background/contabilidade-h2.png");
 }
+.internal-first-section .gatsby-resp-image-wrapper{
+    width: 400px;
+    float: right;
+    padding: 5px;
+}
+.internal-page p{
+    text-align: justify;
+}

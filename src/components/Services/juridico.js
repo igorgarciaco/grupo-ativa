@@ -59,7 +59,7 @@ const Juridico = ({ serviceImg, serviceLogo, serviceText }) => {
           >
             <p>{serviceText}</p>
             <br></br>
-            <Link className="btn-more btn-red btn-service">Saiba mais</Link>
+            <Link className="btn-more btn-red btn-service" to="juridico">Saiba mais</Link>
           </div>
         </Col>
         <Col className="img-right-col" md="6"
