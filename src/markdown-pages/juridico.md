@@ -4,7 +4,7 @@ date: "2020-31-07"
 title: "Jurídico"
 ---
 
-![](images/contabilidade-img-1.png)
+![](images/jur-img-1.png)
 
 SOLUÇÕES: Ativa Assessoria Jurídica
 

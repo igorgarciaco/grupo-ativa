@@ -4,7 +4,7 @@ date: "2020-31-07"
 title: "Logística"
 ---
 
-![](images/contabilidade-img-1.png)
+![](images/logistica-img-1.png)
 
 Soluções: Logística
 

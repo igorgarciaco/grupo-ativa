@@ -46,6 +46,12 @@
 .red .spec-contact{
     background-image: url("../background/asessoria_footer_bg.png");
 }
+.yellow .spec-contact{
+    background-image: url("../background/keywest_footer_bg.png");
+}
+.keywest-color{
+    color: #F5E743
+}
 .apoema-color{
     color: #F38138;
 }
@@ -61,6 +67,18 @@
 }
 .apoema .spec-contact .container{
     background-image: url("../background/página-apoema_14.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 60%;
+}
+.keywest .spec-contact .container{
+    background-image: url("../background/página-key-west_18.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 60%;
+}
+.red .spec-contact .container{
+    background-image: url("../background/página-assessoria_13.png");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 60%;
@@ -103,7 +121,6 @@
     background-size: 100%;
     padding-bottom: 80px;
 }
-
  .internal-title-2{
     background-repeat: no-repeat;
     background-size: 80%;
@@ -115,6 +132,15 @@
 }
 .contabilidade .internal-title-2{
     background-image: url("../background/contabilidade-h2.png");
+}
+.logistica .internal-title-2{
+    background-image: url("../background/logistica-h2.png");
+}
+.juridico .internal-title-2{
+    background-image: url("../background/juridico-h2.png");
+}
+.keywest .internal-title-2{
+    background-image: url("../background//keywest-h2.png");
 }
 .internal-first-section .gatsby-resp-image-wrapper{
     width: 400px;

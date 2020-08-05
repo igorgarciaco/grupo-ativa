@@ -48,7 +48,7 @@ const md = (data) => {
 
 const ApoemaPage = ({ data }) => (
     <>
-        <div className="internal-page">
+        <div className="internal-page red juridico">
             <Layout>
                 <SEO title="juridico" />
                 <section className="internal-first-section">
@@ -56,14 +56,14 @@ const ApoemaPage = ({ data }) => (
                         headerColor="topo-red.png"
                     />
                     <InternalHeader
-                        internalHeaderImg="contabilidade-header.jpg"
-                        internalHeaderTitle="contabilidade-header-title.png"
+                        internalHeaderImg="jur-header.jpg"
+                        internalHeaderTitle="juridico-header-title.png"
                     />
                     <Container className="assessoria-wrapper">
                         <Row>
                             <Col md="6">
                                 <h2 className="text-uppercase internal-title internal-title-2">
-                                    <span>ATIVA</span> contabilidade
+                                    <span>ATIVA</span> juridico
                             </h2>
 
                             </Col>
@@ -101,12 +101,18 @@ const ApoemaPage = ({ data }) => (
                                 <div className="assessoria-specialist">
 
                                     <SpecialistProfile
-                                        specPhoto="gatsby-icon.png"
+                                        specPhoto="avatar_juridico.png"
                                         specName="Dr. Ivandro Antoniolli"
                                         specMail="ivandro@grupoativa.net"
                                         specNumber="(49)9 985 3337"
                                     />
                                 </div>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col md="6"></Col>
+                            <Col md="6">
+                                <InternalLogo brandLogo="logo-juridico.png" />
                             </Col>
                         </Row>
                     </Container>

@@ -4,7 +4,7 @@ date: "2020-31-07"
 title: "Keywest"
 ---
 
-![](images/contabilidade-img-1.png)
+![](images/key-img-1.png)
 
 SOLUÇÕES: Key West Transportes
 

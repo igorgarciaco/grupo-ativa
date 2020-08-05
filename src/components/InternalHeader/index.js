@@ -15,7 +15,7 @@ const InternalHeader = ({ internalHeaderImg, internalHeaderTitle, footerImg }) =
               edges {
                 node {
                   fluid(maxWidth:1980) {
-                    ...GatsbyImageSharpFluid_tracedSVG
+                    ...GatsbyImageSharpFluid
                     originalName
                   }
                 }
