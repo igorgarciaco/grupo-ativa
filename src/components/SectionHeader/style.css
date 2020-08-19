@@ -10,7 +10,7 @@
 }
 .section-subtitle{
     font-size: 15px;
-    padding: 0 250px 0 350px;
+    padding: 0 0px 0 100px;
 }
 .section-title::after{
     display: block;

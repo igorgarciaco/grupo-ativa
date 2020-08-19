@@ -49,41 +49,37 @@ const IndexPage = () => (
         <Assessoria
           serviceImg="servicos_06.png"
           serviceLogo="logo-assessoria.png"
-          serviceText="No mercado desde 1995, o Grupo Ativa Assessoria Aduaneira
-                é especializado em despachos aduaneiros no setor marítimo,
-                aéreo, ferroviário e terrestre, assessorando as empresas junto
-                à alfândega e demais órgaos públicos"/>
+          serviceText="A rotina do mercado internacional é dinâmica. 
+          Exige atualizações constantes sobre os processos que regulamentam a entrada e a saída de 
+          mercadorias de um país. É por isso que a atuação de uma assessoria aduaneira é fundamental! "/>
       <Apoema
         serviceImg="servicos_14.png"
         serviceLogo="logo-apoema.png"
-        serviceText="No mercado desde 1995, o Grupo Ativa Assessoria Aduaneira é 
-      especializado em despachos aduaneiros no setor marítimo, aéreo, ferroviário e 
-      terrestre, assessorando as empresas junto á afândega e demais órgãos públicos."/>
+        serviceText="A sua empresa precisa certificar um produto importado e não sabe por onde começar? 
+        Oferecemos assessoria completa no processo de certificações de produtos importados. "/>
       <Contabilidade
         serviceImg="servicos_22.png"
         serviceLogo="logo-contabilidade.png"
-        serviceText="No mercado desde 1995, o Grupo Ativa Assessoria Aduaneira é 
-      especializado em despachos aduaneiros no setor marítimo, aéreo, ferroviário e 
-      terrestre, assessorando as empresas junto á afândega e demais órgãos públicos."/>
+        serviceText="Empresas da área de comércio exterior possuem necessidades fiscais e tributárias diferenciadas.
+         Desde 2011, a Ativa Contabilidade é especializada em oferecer soluções, em serviços contábeis e de gestão. "/>
       <Logistica
         serviceImg="servicos_30.png"
         serviceLogo="logo-logistica.png"
-        serviceText="No mercado desde 1995, o Grupo Ativa Assessoria Aduaneira é 
-      especializado em despachos aduaneiros no setor marítimo, aéreo, ferroviário e 
-      terrestre, assessorando as empresas junto á afândega e demais órgãos públicos."/>
+        serviceText="Alguns produtos exigem espaços apropriados para a sua conservação. Algumas cargas
+         podem demorar mais tempo para serem vendidas ou despachadas ao destino final e acabar gerando 
+         custos extras com estadias de veículos. "/>
       <Juridico
         serviceImg="servicos_38.png"
         serviceLogo="logo-juridico.png"
-        serviceText="No mercado desde 1995, o Grupo Ativa Assessoria Aduaneira
-                é especializado em despachos aduaneiros no setor marítimo,
-                aéreo, ferroviário e terrestre, assessorando as empresas junto
-                à alfândega e demais órgaos públicos"/>
+        serviceText="A dinâmica do mercado global é complexa e exige que os negócios estejam dispostos a 
+        lidar com situações peculiares e, por vezes, até inesperadas. Receba orientações seguras relacionadas 
+        ao direito aduaneiro, internacional e tributário."/>
       <KeyWest
         serviceImg="servicos_45.png"
         serviceLogo="logo-keywest.png"
-        serviceText="No mercado desde 1995, o Grupo Ativa Assessoria Aduaneira é 
-      especializado em despachos aduaneiros no setor marítimo, aéreo, ferroviário e 
-      terrestre, assessorando as empresas junto á afândega e demais órgãos públicos."/>
+        serviceText=" Entendemos que muitos negócios exigem um plano de transportes diferenciado para os seus 
+        produtos. Oferecemos soluções em operações logísticas, que são adaptáveis conforme a necessidade de
+         nossos clientes e parceiros. "/>
 
       <TeamForm />
       <UnitTabs />

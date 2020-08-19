@@ -81,7 +81,7 @@ class Header extends Component {
               spy={true}
               smooth={true}
               offset={-500}
-              duration={500}>Inicio</Link>
+              duration={500}>Início</Link>
                 <Link to="aboutSection" className="nav-link"
                   spy={true}
                   smooth={true}
@@ -89,7 +89,7 @@ class Header extends Component {
                   duration={500}>
                   Sobre
                 </Link>
-                <NavDropdown title="Servicos" id="basic-nav-dropdown">
+                <NavDropdown title="Serviços" id="basic-nav-dropdown">
 
                   <NavDropdown.Item>
                     <Link
@@ -118,7 +118,7 @@ class Header extends Component {
                       smooth={true}
                       offset={-70}
                       duration={500}>
-                      Ativa logistica
+                      Ativa logística
                       </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
@@ -128,7 +128,7 @@ class Header extends Component {
                       smooth={true}
                       offset={-70}
                       duration={500}>
-                      Ativa juridico
+                      Ativa jurídico
                       </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>

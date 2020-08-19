@@ -29,13 +29,20 @@ const AboutText = () => {
             <div className="second-redline"></div>
             <div className="about-paragraph">
                 <p>
-                  Desde 1995 atuando no mercado nacional e internacional, com soluções completas e personalizadas em exportação e importação integradas a uma equipe multidisciplinar, comprometida em oferecer atendimento de forma rápida e eficaz, com vasta experiência no comércio exterior, garantindo agilidade nos processos e otimização de custos, além de oferecer assessoria em exportação e importação; logística e armazéns gerais, transporte rodoviário nacional e internacional de cargas, assessoria jurídica na área tributária e aduaneira, certificações de produtos junto ao INMETRO e ANATEL e serviços contábeis com ênfase em benefícios fiscais.	
-
+                Somos uma empresa moderna e totalmente comprometida em oferecer soluções para a área de comércio exterior. Contamos com vasta experiência no mercado nacional e internacional no qual atuamos, desde 1995, com foco em qualidade, agilidade e resultados.  
                 </p>
                 <p>
-                O Grupo Ativa está presente em pontos estratégicos, próximos à fronteiras e Aduanas de Carga, preparado para realizar processos de desembaraço aduaneiro em todos os portos do Brasil, permitindo oferecer aos seus clientes maior liberdade para escolher a melhor opção de desembaraço de sua mercadoria com agilidade e segurança.	
+                Nossa estrutura é abrangente. Envolve desde assessoria em processos de importação e exportação, passando por serviços de armazenagem e logística, transporte rodoviário de cargas no Brasil e países da América do Sul, assessoria jurídica na área tributária e aduaneira, contabilidade especializada em benefícios fiscais até certificações de produtos junto a órgãos como INMETRO (Instituto Nacional de Metrologia, Qualidade e Tecnologia) e ANATEL (Agência Nacional de Telecomunicações). 
                   </p>
+                  <i>“Nossa solidez de mercado está amparada nas soluções personalizadas que são pensadas para atender às necessidades específicas de cada cliente. Eficiência, inovação, confiança e comprometimento fazem parte do nosso DNA.”  
+
+ </i><br/><br/>
+ <i>– Adenor Pereira, Presidente e Fundador do Grupo Ativa</i>
+            <br/><br/>
+            <p>Além do aprimoramento profissional constante, estamos atentos às mudanças no que diz respeito a estrutura física. Por isso, investimos constantemente em equipamentos de ponta para inovar e se adaptar as novas tendências de mercado.  </p>
+            <p>A capacidade de identificar e atender necessidades, fidelização de clientes através da oferta de soluções inteligentes e competitivas, marcam a nossa trajetória de expansão. Atualmente, estamos presentes nas cidades estratégicas de Dionísio Cerqueira (SC), Itajaí (SC), São Francisco do Sul (SC) e Foz do Iguaçu (PR) oferecendo soluções que atravessam fronteiras internacionais. </p>
             </div>
+            
             <p> <Img fixed={data.placeholderImage.childImageSharp.fixed}/> </p>
         </Col>
     )

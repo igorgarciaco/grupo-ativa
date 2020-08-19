@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { Container } from "reactstrap"
+
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
@@ -10,27 +12,36 @@ import "./style.css"
 export default () => (
     <>
         <section className="unit-tabs" id="units">
+            <Container>
+
+                <h1 className="section-title text-uppercase">CONHEÇA NOSSAS <span className="red-text">UNIDADES</span></h1>
+                <p className="section-subtitle">
+                    O Grupo Ativa está estrategicamente posicionado para garantir agilidade e comodidade aos seus clientes e parceiros.
+<br/>
+                    Saiba mais sobre as regiões onde estão instaladas as nossas Unidades:
+          </p>
+            </Container>
             <Tabs defaultIndex="1">
                 <TabList>
                     <Tab>
                         DIONÍSIO CERQUEIRA
-                            /SC
+                        /SC
                         </Tab>
                     <Tab>
                         ITAJAI
-                            /SC
+                        /SC
                         </Tab>
                     <Tab>
                         são francisco do sul
-                            /sc
+                        /sc
                         </Tab>
                     <Tab>
                         foz do iguaçu
-                            /pr
+                        /pr
                         </Tab>
                     <Tab>
                         são paulo
-                            /sp
+                        /sp
                         </Tab>
                 </TabList>
 

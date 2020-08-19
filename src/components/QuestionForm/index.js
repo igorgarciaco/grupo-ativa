@@ -11,7 +11,7 @@ const QuestionForm = () => {
             <section className="question-form-wrap" id="contact">
             <Container>
                     <Row className="section-title-row">
-                        <h2 className="section-title text-uppercase"> <span>DÚVIDAS?</span> Podemos ajuda-lo </h2>
+                        <h2 className="section-title text-uppercase"> <span>DÚVIDAS?</span> Podemos ajudá-lo. </h2>
                     </Row>
                     <Row>
                         <p className="section-subtitle">

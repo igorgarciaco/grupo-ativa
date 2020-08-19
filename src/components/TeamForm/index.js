@@ -29,12 +29,15 @@ const TeamForm = () => {
             <h1 className="section-title text-uppercase">FAÇA PARTE <br /> da NOSSA <span className="red-text">EQUIPE</span></h1>
           </Row>
           <Row>
-            <p className="section-subtitle">
-            O Grupo Ativa valoriza o capital humano e o considera essencial para o desenvolvimento e progresso. 
-Buscamos pessoas visionárias, dedicadas e com empatia pelo trabalho em equipe.  
-Se você se identifica com estes valores, anexe abaixo seu currículo em nosso banco de talentos. 
-A equipe de RH analisará seu perfil e entraremos em contato caso você se encaixe em uma das nossas oportunidades de trabalho.
-          </p>
+            <div className="section-subtitle">
+            <p>
+              Para alcançar a excelência nos serviços prestados o Grupo Ativa aposta na valorização do capital humano, pois o reconhece como essencial para o desenvolvimento e progresso. Por isso, conta com equipe qualificada e multidisciplinar, preparada para oferecer o melhor desempenho operacional. 
+              </p>
+              <i>“Ao longo dos anos buscamos oferecer oportunidades para o crescimento e o desenvolvimento das habilidades de nossos colaboradores, respeitando suas aptidões e proporcionando um ambiente de trabalho familiar e acolhedor.” 
+<br/>
+- Kedma Pereira – Diretora e sócia-fundadora do Grupo Ativa </i><br/>
+<p>Buscamos pessoas visionárias, dedicadas e com empatia pelo trabalho em equipe. Se você se identifica com estes valores, anexe o seu currículo em nosso banco de talentos. A equipe de RH analisará seu perfil e entraremos em contato caso você se encaixe em uma das nossas oportunidades de trabalho. </p>
+          </div>
           </Row>
           <Row>
             <Form enctype="multipart/form-data" inline action="https://getform.io/f/739b4e05-0d91-4f60-9c17-d4cebcd621ac" method="POST">
