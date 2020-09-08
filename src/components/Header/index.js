@@ -89,8 +89,7 @@ class Header extends Component {
                   duration={500}>
                   Sobre
                 </Link>
-                <NavDropdown title="Serviços" id="basic-nav-dropdown">
-
+                <NavDropdown title="Serviços" id="basic-nav-dropdown" className="dropdown-1">
                   <NavDropdown.Item>
                     <Link
                       to="assessoria"

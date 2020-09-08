@@ -14,7 +14,11 @@ const CoverText = () => {
                 <Col>
                     <div className="cover-text" id="coverText">
                         <p className="cover-title text-uppercase">
-                            Não oferecemos<br /> serviços, oferecemos <br /> <span className="we-offer"><ReactRotatingText cursor={false} items={['first', 'second', 'third']} />.</span>
+                            Nosso propósito<br /> nos torna diferentes.<br />
+                            além de serviços entregamos <br />
+                            <span className="we-offer">
+                                <ReactRotatingText cursor={false} items={['estratégias personalizadas', 'second', 'third']} />.
+                            </span>
                         </p>
                         {/* <p className="cover-subtitle">O Grupo Ativa reúne varios serviços interligados que se fundem para<br /> lhe oferecer um só resultado; a sua satisfação!</p> */}
                     </div>

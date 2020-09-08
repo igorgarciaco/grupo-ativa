@@ -39,10 +39,7 @@
     margin: auto;
     padding-bottom: 50px;
 }
-.unit-frame{
-    background-image: url("../../background/moldura-foto-unidade_05.png");
-    background-repeat: no-repeat;
-}
+
 .unit-frame img{
     border-radius: 5px;
 }

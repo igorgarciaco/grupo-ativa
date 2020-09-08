@@ -78,16 +78,16 @@ const Footer = () => {
                                     <NavLink href="#assessoria">SERVIÇOS</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink disabled href="#">TRABALHE CONOSCO</NavLink>
+                                    <NavLink  href="#teamForm">TRABALHE CONOSCO</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink disabled href="#">UNIDADES</NavLink>
+                                    <NavLink  href="#units">UNIDADES</NavLink>
                                 </NavItem>
-                                <NavItem>
+                                {/* <NavItem>
                                     <NavLink disabled href="#">NOTÍCIAS</NavLink>
-                                </NavItem>
+                                </NavItem> */}
                                 <NavItem>
-                                    <NavLink disabled href="#">CONTATO</NavLink>
+                                    <NavLink  href="#units">CONTATO</NavLink>
                                 </NavItem>
                             </Nav>
                         </Col>

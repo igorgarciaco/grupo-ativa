@@ -1,12 +1,11 @@
 .stats-section{
-    background-image: url("../../background/bg-numeros_02.jpg");
+    background-image: url("../../background/bg-quote.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding: 50px;
 }
-.stats-container{
-    padding: 0;
-}
+
 .stats-col{
     text-align: center;
     padding: 40px;
@@ -38,4 +37,23 @@
     color: #ffffff;
     font-size: 10px;
     font-weight: 500;
+}
+.quote{
+    color: #ffffff;
+    font-family: 'Metropolis-Regular';
+    font-weight: 600;
+    font-size: 22px;
+    font-style: italic;
+
+}
+.quote-autor{
+    text-align: end;
+    margin: 0;
+    font-family: 'Metropolis-Regular';
+    font-weight: 600;
+}
+.quote-info{
+    text-align: end;
+    font-family: 'Metropolis-Light';
+    font-weight: 300;
 }

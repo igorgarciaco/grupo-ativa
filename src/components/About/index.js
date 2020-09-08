@@ -30,17 +30,11 @@ const AboutText = () => {
             <div className="about-paragraph">
                 <p>
                 Somos uma empresa moderna e totalmente comprometida em oferecer soluções para a área de comércio exterior. Contamos com vasta experiência no mercado nacional e internacional no qual atuamos, desde 1995, com foco em qualidade, agilidade e resultados.  
-                </p>
-                <p>
-                Nossa estrutura é abrangente. Envolve desde assessoria em processos de importação e exportação, passando por serviços de armazenagem e logística, transporte rodoviário de cargas no Brasil e países da América do Sul, assessoria jurídica na área tributária e aduaneira, contabilidade especializada em benefícios fiscais até certificações de produtos junto a órgãos como INMETRO (Instituto Nacional de Metrologia, Qualidade e Tecnologia) e ANATEL (Agência Nacional de Telecomunicações). 
-                  </p>
-                  <i>“Nossa solidez de mercado está amparada nas soluções personalizadas que são pensadas para atender às necessidades específicas de cada cliente. Eficiência, inovação, confiança e comprometimento fazem parte do nosso DNA.”  
 
- </i><br/><br/>
- <i>– Adenor Pereira, Presidente e Fundador do Grupo Ativa</i>
-            <br/><br/>
-            <p>Além do aprimoramento profissional constante, estamos atentos às mudanças no que diz respeito a estrutura física. Por isso, investimos constantemente em equipamentos de ponta para inovar e se adaptar as novas tendências de mercado.  </p>
-            <p>A capacidade de identificar e atender necessidades, fidelização de clientes através da oferta de soluções inteligentes e competitivas, marcam a nossa trajetória de expansão. Atualmente, estamos presentes nas cidades estratégicas de Dionísio Cerqueira (SC), Itajaí (SC), São Francisco do Sul (SC) e Foz do Iguaçu (PR) oferecendo soluções que atravessam fronteiras internacionais. </p>
+                Nossa estrutura é abrangente. Envolve desde assessoria em processos de importação e exportação, passando por serviços de armazenagem e logística, transporte rodoviário de cargas no Brasil e países da América do Sul, assessoria jurídica na área tributária e aduaneira, contabilidade especializada em benefícios fiscais até certificações de produtos junto a órgãos como INMETRO (Instituto Nacional de Metrologia, Qualidade e Tecnologia) e ANATEL (Agência Nacional de Telecomunicações). 
+                  </p>  
+            <p>Além do aprimoramento profissional constante, estamos atentos às mudanças no que diz respeito a estrutura física. Por isso, investimos constantemente em equipamentos de ponta para inovar e se adaptar as novas tendências de mercado.
+            A capacidade de identificar e atender necessidades, fidelização de clientes através da oferta de soluções inteligentes e competitivas, marcam a nossa trajetória de expansão. Atualmente, estamos presentes nas cidades estratégicas de Dionísio Cerqueira (SC), Itajaí (SC), São Francisco do Sul (SC) e Foz do Iguaçu (PR) oferecendo soluções que atravessam fronteiras internacionais. </p>
             </div>
             
             <p> <Img fixed={data.placeholderImage.childImageSharp.fixed}/> </p>

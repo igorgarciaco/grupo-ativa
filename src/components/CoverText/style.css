@@ -1,12 +1,12 @@
 .cover-text{
     z-index: 999;
     color: #ffffff;
-    text-align: left;
+    text-align: center;
     padding: 0 45px;
 }
 .cover-title{
     font-weight: bold;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 1.2;
 }
 .cover-subtitle{

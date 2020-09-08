@@ -18,7 +18,7 @@
     height: 0;
 }
 .team-form-container .section-subtitle{
-    text-align: center;
+    text-align: justify;
     padding: 0;
     margin: auto;
 }
@@ -31,6 +31,17 @@
     border-color: #B62528;
     font-size: 16px;
     font-weight: 500;
+}
+.quote-2{
+    font-weight: 600;
+}
+.team-name{
+    border: 1px solid #dc3545;
+}
+.form-ilustration{
+    height: 270px;
+    overflow: hidden;
+    margin-top: 20px;
 }
 @media screen and (min-width: 320px) and (max-width: 768px){
     .team-form-container h1{

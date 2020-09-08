@@ -47,7 +47,7 @@ export default () => (
 
                 <TabPanel>
                     <Unit
-                        unitImg="unidade-dionisio.jpg"
+                        unitImg="unidade-dionisio.png"
                         unitName="Dionísio Cerqueira"
                         unitParagraph1="
                         O Grupo Ativa nasceu em Dionísio Cerqueira (SC), em 1995, cidade estratégica para os negócios que envolvem o comércio exterior e a logística nos países da América do Sul, pois se trata da única fronteira seca de Santa Catarina, rota importante para as mercadorias que transitam entre os países vizinhos. Pela aduana de Dionísio Cerqueira flui a produção agrícola do Mercosul, assim como carnes, bobinas de papel e plástico, bebidas, vestuário e diversos tipos de alimentos, peças e maquinários. 
@@ -62,7 +62,7 @@ export default () => (
                 </TabPanel>
                 <TabPanel>
                     <Unit
-                        unitImg="moldura-foto-unidade_05.png"
+                        unitImg="unidade-itajai.png"
                         unitName="Itajaí"
                         unitParagraph1="
                         Estamos em Itajaí (SC) desde 2004. A localização é estratégica para o nosso negócio, pois no Complexo Portuário de Itajaí estão localizados os Terminais Portuários APM Terminals e Portonave. Considerado o principal canal de escoamento, para produtos fabricados no Brasil e na América do Sul, estes portos recebem cargas marítimas vindas de todos os continentes e com destino também aos países vizinhos. 
@@ -83,7 +83,7 @@ export default () => (
                 </TabPanel>
                 <TabPanel>
                     <Unit
-                        unitImg="unidade-sf.jpg"
+                        unitImg="unidade-sf.png"
                         unitName="São Francisco do Sul"
                         unitParagraph1="
                             Na região do litoral norte de Santa Catarina está localizado o Complexo da Baía da Babitonga, onde estão situados o Porto de São Francisco do Sul e o Porto de Itapoá. Desde 2007, o Grupo Ativa possui sede na cidade de São Francisco do Sul (SC), para estar conectado com as atividades de comércio exterior que movimentam a região.  

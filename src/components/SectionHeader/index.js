@@ -19,9 +19,11 @@ const SectionHeader = () => {
                             <div className="redline"></div>
                             <p className="section-subtitle">
                                 Soluções em importação e exportação, serviços de armazenagem e logística, transporte rodoviário de cargas, certificações de produtos importados, assessoria jurídica e contabilidade especializada em comércio exterior.
-<br/>
-                                Conheça as soluções que podemos oferecer ao seu negócio!
-                                </p>
+<br />
+                                <b>
+                                    Conheça as soluções que podemos oferecer ao seu negócio!
+                                    </b>
+                            </p>
                         </Col>
                         <Col md="1"></Col>
                     </Row>
