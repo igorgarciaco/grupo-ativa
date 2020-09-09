@@ -79,14 +79,7 @@ const ApoemaPage = ( { data } ) => (
                                 <h2 className="text-uppercase">Fale com um especialista</h2>
                             </Col>
                             <Col md="6">
-                                <div className="whatsapp-link">
-                                    <div className="whatsapp-link-pop">
-                                        <span>Fale com um especialista. Se preferir, podemos te ligar.</span>
-                                    </div>
-                                    <a href="https://api.whatsapp.com/send?phone=554999853337&text=Olá">
-                                        <img src={WhatsAppLogo} ></img>
-                                    </a>
-                                </div>
+                                
                             </Col>
                         </Row>
                         <Row>
@@ -95,13 +88,21 @@ const ApoemaPage = ( { data } ) => (
                                 <AssessoriaForm />
                             </Col>
                             <Col md="6">
+                            <div className="whatsapp-link">
+                                    <div className="whatsapp-link-pop">
+                                        <span>Fale com nosso especialista.</span>
+                                    </div>
+                                    <a href="https://api.whatsapp.com/send?phone=5547996011648&text=Olá">
+                                        <img src={WhatsAppLogo} ></img>
+                                    </a>
+                                </div>
                                 <div className="assessoria-specialist">
 
                                     <SpecialistProfile
                                         specPhoto="avatar_assessoria.png"
                                         specName="Gilberto do Nascimento"
                                         specMail="gilberto@grupoativa.net"
-                                        specNumber="(49)9 9601 1648"
+                                        specNumber="(47) 9 9601 1648"
                                     />
                                 </div>
                             </Col>
@@ -109,7 +110,7 @@ const ApoemaPage = ( { data } ) => (
                         <Row>
                             <Col md="6"></Col>
                             <Col md="6">
-                                <InternalLogo brandLogo="logo_assessoria_2.png" />
+                                <InternalLogo brandLogo="logo_assessoria_2.png" /><br/>
                             </Col>
                         </Row>
                     </Container>

@@ -83,14 +83,7 @@ const ApoemaPage = ({ data }) => (
                                 <h2 className="text-uppercase ">Fale com um especialista</h2>
                             </Col>
                             <Col md="6">
-                                <div className="whatsapp-link">
-                                    <div className="whatsapp-link-pop">
-                                        <span>Fale com um especialista. Se preferir, podemos te ligar.</span>
-                                    </div>
-                                    <a href="https://api.whatsapp.com/send?phone=554999853337&text=Olá">
-                                        <img src={WhatsAppLogo} ></img>
-                                    </a>
-                                </div>
+                               
                             </Col>
                         </Row>
                         <Row>
@@ -99,13 +92,21 @@ const ApoemaPage = ({ data }) => (
                                 <ApoemaForm />
                             </Col>
                             <Col md="6">
+                            <div className="whatsapp-link">
+                                    <div className="whatsapp-link-pop">
+                                        <span>Fale com nosso especialista.</span>
+                                    </div>
+                                    <a href="https://api.whatsapp.com/send?phone=5547992280941&text=Olá">
+                                        <img src={WhatsAppLogo} ></img>
+                                    </a>
+                                </div>
                                 <div className="apoema-specialist">
 
                                     <SpecialistProfile
                                         specPhoto="avatar_apoema.png"
                                         specName="Eloir da Luz"
-                                        specMail="ivandro@grupoativa.net"
-                                        specNumber="(49)9 985 3337"
+                                        specMail="eloir@grupoativa.net"
+                                        specNumber="(47) 9 9228 0941"
                                     />
                                 </div>
                             </Col>
@@ -113,7 +114,7 @@ const ApoemaPage = ({ data }) => (
                         <Row>
                             <Col md="6"></Col>
                             <Col md="6">
-                                <InternalLogo brandLogo="logo-apoema.png" />
+                                <InternalLogo brandLogo="logo-apoema-2.png" /><br/>
                             </Col>
                         </Row>
                     </Container>
