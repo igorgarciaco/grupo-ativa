@@ -43,7 +43,7 @@ class Header extends Component {
         ) {
           document.getElementById('navbar').style.top = '0';
         } else {
-          document.getElementById('navbar').style.top = '-15.0rem';
+          document.getElementById('navbar').style.top = '-35.0rem';
         }
         prevScrollpos = currentScrollPos;
       };

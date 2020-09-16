@@ -57,7 +57,7 @@ const TeamForm = () => {
               </div>
 
               <Form enctype="multipart/form-data" inline action="https://getform.io/f/739b4e05-0d91-4f60-9c17-d4cebcd621ac" method="POST">
-                <Col md="4" style={{ paddingLeft: "0" }}>
+                <Col md="4">
                   <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
                     <Input type="text" name="full_Name" id="fullName" placeholder="Nome completo" className="team-name" />
                   </FormGroup>

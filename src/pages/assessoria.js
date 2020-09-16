@@ -50,7 +50,7 @@ const ApoemaPage = ( { data } ) => (
     <>
         <div className="internal-page red assessoria">
             <Layout>
-                <SEO title="assessoria" />
+                <SEO title="Ativa Assessoria" />
                 <section className="internal-first-section">
                     <InternalColor
                         headerColor="topo-red.png"

@@ -57,3 +57,15 @@
     font-family: 'Metropolis-Light';
     font-weight: 300;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .quote-text{
+        font-size: 14px;
+    }
+    .quote-autor{
+        font-size: 12px;
+    }
+    .quote-info{
+        font-size: 12px;
+    }
+  }

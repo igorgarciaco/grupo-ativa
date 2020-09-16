@@ -14,7 +14,7 @@
     transition: 0.5s;
 }
 .main-navbar{
-    border-bottom: 1px solid #ffffff3b;
+    /* border-bottom: 1px solid #ffffff3b; */
     font-weight: 500;
 }
 .inside-nav{

@@ -28,3 +28,16 @@
     color: #ffffff;
     transition: 0.5s;
 }
+.internal-form .keywest-submit{
+    background-color: transparent;
+    color: #222222;
+    border-color: #222222;
+    padding: 8px 60px;
+    transition: 0.5s;
+}
+.internal-form .keywest-submit:hover{
+    background-color: #F5E743;
+    border-color: #F5E743;
+    color: #ffffff;
+    transition: 0.5s;
+}

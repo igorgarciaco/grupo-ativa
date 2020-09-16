@@ -15,6 +15,7 @@
 }
 .service-text{
     padding-top: 20px;
+    text-align: justify;
 }
 .text-contabilidade {
     padding: 50px 0 120px;
@@ -40,6 +41,10 @@
     border: 2px solid #B62528;
     border-left: 0;
     border-right: 0;
+}
+.img-contabilidade{
+    padding-left: 0;
+    padding-right: 10px;
 }
 .services-right .text-col {
     padding-top: 50px;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Container } from "reactstrap"
+import { Container, Col, Row } from "reactstrap"
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
@@ -23,26 +23,33 @@ export default () => (
             </Container>
             <Tabs defaultIndex="1">
                 <TabList>
-                    <Tab>
+                    <Container>
+        <Row noGutters>
+
+                    <Tab className="col tab">
                         DIONÍSIO CERQUEIRA
                         /SC
                         </Tab>
-                    <Tab>
+
+                    <Tab className="col tab">
                         ITAJAI
                         /SC
                         </Tab>
-                    <Tab>
+
+                    <Tab className="col tab">
                         são francisco do sul
                         /sc
                         </Tab>
-                    <Tab>
+                    <Tab className="col tab">
                         foz do iguaçu
                         /pr
                         </Tab>
-                    <Tab>
+                    </Row>
+                    </Container>
+                    {/* <Tab>
                         são paulo
                         /sp
-                        </Tab>
+                        </Tab> */}
                 </TabList>
 
                 <TabPanel>
@@ -126,7 +133,7 @@ export default () => (
                         unitPhone="(47) 2104 6900"
                     />
                 </TabPanel>
-                <TabPanel>
+                {/* <TabPanel>
                     <Unit
                         unitImg="moldura-foto-unidade_05.png"
                         unitName="São Paulo"
@@ -135,7 +142,7 @@ export default () => (
                         unitMail="contato@grupoativa.net"
                         unitPhone="(47) 2104 6900"
                     />
-                </TabPanel>
+                </TabPanel> */}
             </Tabs>
         </section>
     </>

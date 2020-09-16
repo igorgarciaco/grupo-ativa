@@ -50,7 +50,7 @@ const ApoemaPage = ({ data }) => (
     <>
         <div className="internal-page red logistica">
             <Layout>
-                <SEO title="logistica" />
+                <SEO title="Ativa Logística" />
                 <section className="internal-first-section">
                     <InternalColor
                         headerColor="topo-red.png"
@@ -112,7 +112,7 @@ const ApoemaPage = ({ data }) => (
                         <Row>
                             <Col md="6"></Col>
                             <Col md="6">
-                                <InternalLogo brandLogo="logo-logistica.png" />
+                                <InternalLogo brandLogo="logo-logistica-2.png" />
                             </Col>
                         </Row>
                     </Container>

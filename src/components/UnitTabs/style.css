@@ -1,3 +1,6 @@
+.unit-tabs{
+    background-color: #eeeeee;
+}
 .unit-tabs .container .row.our-units{
     background-image: url("../../background/letreiro-unidades_05.png");
     background-repeat: no-repeat;
@@ -9,7 +12,7 @@
     height: 80px;
 }
 .unit-tabs li{
-    width: 20%;
+    /* width: 20%; */
     text-align: center;
     height: 80px;
     font-size: 15px;
@@ -43,7 +46,7 @@
 .unit-frame img{
     border-radius: 5px;
 }
-.react-tabs__tab{
+.tab{
     padding: 15px;
     border: 1px solid #B62528;
     font-family: 'Metropolis-Bold';
@@ -52,6 +55,7 @@
     background-image: url("../../background/letreiro-ativa-unidades_05.png");
     background-repeat: no-repeat;
     background-position: center;
+    list-style-type: none;
 }
 .react-tabs__tab-list{
     border: none;
@@ -94,5 +98,8 @@
     }
     .one-line{
         padding-top: 40px;
+    }
+    .unit-description{
+        margin-top: 50px;
     }
 }

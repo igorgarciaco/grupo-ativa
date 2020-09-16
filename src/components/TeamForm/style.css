@@ -1,5 +1,5 @@
 .team-form-section{
-    background-color: #EEEEEE;
+    background-color: #ffffff;
     padding-top: 20px;
 }
 .team-form-container{
@@ -49,5 +49,11 @@
     }
     .team-form-container{
         background-size: 80%;
+    }
+    .section-subtitle p:first-child{
+        margin-top: 30px;
+    }
+    .form-ilustration{
+        height: unset;
     }
 }

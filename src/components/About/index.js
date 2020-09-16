@@ -37,7 +37,7 @@ const AboutText = () => {
             A capacidade de identificar e atender necessidades, fidelização de clientes através da oferta de soluções inteligentes e competitivas, marcam a nossa trajetória de expansão. Atualmente, estamos presentes nas cidades estratégicas de Dionísio Cerqueira (SC), Itajaí (SC), São Francisco do Sul (SC) e Foz do Iguaçu (PR) oferecendo soluções que atravessam fronteiras internacionais. </p>
             </div>
             
-            <p> <Img fixed={data.placeholderImage.childImageSharp.fixed}/> </p>
+            {/* <p> <Img fixed={data.placeholderImage.childImageSharp.fixed}/> </p> */}
         </Col>
     )
 }
