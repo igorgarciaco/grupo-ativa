@@ -10,7 +10,7 @@ import { Container, Row, Col } from "reactstrap"
 
 import WhatsAppLogo from "../background/whatsapp-logo-1.png"
 
-import AssessoriaForm from "../components/SpecialistForm/AssessoriaForm.js"
+import AssessoriaForm from "../components/SpecialistForm/JuridicoForm.js"
 import SpecialistProfile from "../components/SpecialistProfile"
 import InternalColor from "../components/InternalHeader/color.js"
 import InternalLogo from "../components/InternalLogo"

@@ -44,12 +44,12 @@ export default () => (
                         foz do iguaçu
                         /pr
                         </Tab>
-                    </Row>
-                    </Container>
-                    {/* <Tab>
+                    <Tab className="col tab">
                         são paulo
                         /sp
-                        </Tab> */}
+                        </Tab>
+                    </Row>
+                    </Container>
                 </TabList>
 
                 <TabPanel>
@@ -133,16 +133,20 @@ export default () => (
                         unitPhone="(47) 2104 6900"
                     />
                 </TabPanel>
-                {/* <TabPanel>
+                <TabPanel>
                     <Unit
-                        unitImg="moldura-foto-unidade_05.png"
+                        unitImg="unidade-sp.png"
                         unitName="São Paulo"
-                        unitText="Texto sobre o municipio, apresentando a cidade em alungs aspectos interessantes para a Unidade"
-                        unitAdress="Av. Osvaldo Reis, 3281 - 18 andar - Ed. Rivieira Business Bairro Bal, Santa Clara, Praia Brava - CEP 88306 773 Itajai/SC"
+                        unitParagraph1="Em 2020 instalamos a nossa sede física na cidade de São Paulo (SP), uma das principais capitais de negócios do país e da América Latina e que concentra importantes mercados de exportação e importação. A instalação física na capital paulista intensifica a abertura para novos negócios, assim como a aproximação com clientes e parceiros da região sudeste do Brasil."
+                        unitParagraph2="Em São Paulo, assim como em Santa Catarina e no Paraná, o Grupo Ativa segue comprometido em oferecer soluções inteligentes em comércio exterior. Com anos de atuação no segmento, possui expertise para atender mercados cada vez mais competitivos e exigentes, fidelizando clientes e parceiros no Brasil e no exterior."
+                        unitAdress="Bairro Vila Hamburguesa Av. Queiroz Filho, 1700, Sala 101
+                        Sunny Tower (Torre D)
+                        CEP: 05319-000
+                        "
                         unitMail="contato@grupoativa.net"
                         unitPhone="(47) 2104 6900"
                     />
-                </TabPanel> */}
+                </TabPanel>
             </Tabs>
         </section>
     </>

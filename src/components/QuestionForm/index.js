@@ -21,7 +21,7 @@ const QuestionForm = () => {
                 </Container>
                 <Container >
                     <Row>
-                        <form action="https://getform.io/f/739b4e05-0d91-4f60-9c17-d4cebcd621ac" method="POST">
+                        <form action="https://getform.io/f/edbf0b72-1d66-4d50-a408-f33eef05f2f0" method="POST">
                             <Col md="12">
                                 <label>
                                     Olá &nbsp;

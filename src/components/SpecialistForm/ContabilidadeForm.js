@@ -17,7 +17,7 @@ export default class ApoemaForm extends React.Component {
         return (
             <Form
                 onSubmit={this.submitForm}
-                action="https://formspree.io/xbjzzqop"
+                action="https://getform.io/f/40d2330c-2d13-4746-83ac-89b359951af4"
                 method="POST"
                 className="internal-form"
             >

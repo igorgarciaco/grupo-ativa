@@ -43,7 +43,7 @@ class Header extends Component {
         ) {
           document.getElementById('navbar').style.top = '0';
         } else {
-          document.getElementById('navbar').style.top = '-35.0rem';
+          document.getElementById('navbar').style.top = '-15.0rem';
         }
         prevScrollpos = currentScrollPos;
       };
@@ -63,7 +63,7 @@ class Header extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar expand="lg" id="navbar" className="main-navbar">
+        <Navbar expand="lg" id="navbar" name="navbar" className="main-navbar">
           <Container>
             <Navbar.Brand>
               <a href="/" className="brand"
