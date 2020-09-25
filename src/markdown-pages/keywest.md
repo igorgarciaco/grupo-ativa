@@ -6,7 +6,7 @@ title: "Keywest"
 
 ![](images/key-img-1.png)
 
-SOLUÇÕES: Key West Transportes
+npm Key West Transportes
 
 O transporte rodoviário de cargas é um desafio para muitas empresas. Seja pela complexidade que o produto exige em seu transporte, pelo prazo de entrega da mercadoria ao destino, ou até mesmo pela relação de confiança estabelecida com o operador logístico responsável. 
 

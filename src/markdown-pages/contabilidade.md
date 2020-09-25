@@ -7,7 +7,7 @@ title: "Contabilidade"
 ![](images/contabilidade-img-1.png)
 
 
-SOLUÇÕES: Contabilidade com ênfase em comércio exterior
+Contabilidade com ênfase em comércio exterior
 
 Empresas da área de comércio exterior possuem necessidades fiscais e tributárias diferenciadas. Desde 2011, a Ativa Contabilidade é especializada em oferecer soluções, em serviços contábeis e de gestão, para empresas do segmento de importação e exportação que buscam vantagens competitivas no mercado. 
 

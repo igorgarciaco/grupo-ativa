@@ -35,7 +35,7 @@ const Juridico = ({ serviceImg, serviceLogo, serviceText }) => {
 
   return (
     <Container className="services-right juridico">
-      <Row>
+      <Row className="row-services">
         <Col md="1"></Col>
         <Col className="text-col" md="5">
         <div className="logo-mobile">

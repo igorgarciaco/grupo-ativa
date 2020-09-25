@@ -83,6 +83,12 @@
 /* .react-tabs__tab--selected::after, .react-tabs__tab:focus{
     display: none;
 } */
+.dionisio-wrapper .dionisio-phone-2{
+    display: block;
+}
+.dionisio-phone-2{
+    display: none;
+}
 @media screen and (min-width: 320px) and (max-width: 768px){
     .unit-tabs li{
         font-size: 10px;
@@ -101,5 +107,8 @@
     }
     .unit-description{
         margin-top: 50px;
+    }
+    .tab{
+        background-size: 80%;
     }
 }

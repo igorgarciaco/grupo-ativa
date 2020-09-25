@@ -6,7 +6,7 @@ title: "Logística"
 
 ![](images/logistica-img-1.png)
 
-Soluções: Logística
+Logística
 
 Alguns produtos exigem espaços apropriados para a sua conservação. Algumas cargas podem demorar mais tempo para serem vendidas ou despachadas ao destino final e acabar gerando custos extras com estadias de veículos. Nestes momentos, poder contar com um espaço físico adequado e seguro para a armazenagem de mercadorias representa não apenas tranquilidade, como também economia para muitas empresas.
 

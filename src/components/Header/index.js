@@ -112,6 +112,16 @@ class Header extends Component {
                   </NavDropdown.Item>
                   <NavDropdown.Item>
                     <Link
+                      to="contabilidade"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}>
+                      Ativa Contabilidade
+                      </Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link
                       to="logistica"
                       spy={true}
                       smooth={true}
@@ -155,6 +165,13 @@ class Header extends Component {
                   duration={500}>
                   Contato
                 </Link>
+                <a href="http://www.ativadespachos.com.br" className="nav-link"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}>
+                  INTRANET
+                </a>
                 {/* <Link to="" className="nav-link"
                   spy={true}
                   smooth={true}

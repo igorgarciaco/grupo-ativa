@@ -7,6 +7,7 @@
     background-image: url("../../background/letreiro-servicos_03.png");
     background-repeat: no-repeat;
     background-position: 15px 65px;
+    overflow: hidden;
 }
 .section-subtitle{
     font-size: 15px;

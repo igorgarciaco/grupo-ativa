@@ -17,42 +17,43 @@ export default () => (
                 <h1 className="section-title text-uppercase">CONHEÇA NOSSAS <span className="red-text">UNIDADES</span></h1>
                 <p className="section-subtitle">
                     O Grupo Ativa está estrategicamente posicionado para garantir agilidade e comodidade aos seus clientes e parceiros.
-<br/>
+<br />
                     Saiba mais sobre as regiões onde estão instaladas as nossas Unidades:
           </p>
             </Container>
             <Tabs defaultIndex="1">
                 <TabList>
                     <Container>
-        <Row noGutters>
+                        <Row noGutters>
 
-                    <Tab className="col tab">
-                        DIONÍSIO CERQUEIRA
-                        /SC
-                        </Tab>
-
-                    <Tab className="col tab">
-                        ITAJAI
-                        /SC
+                            <Tab className="col tab">
+                                DIONÍSIO CERQUEIRA
+                                /SC
                         </Tab>
 
-                    <Tab className="col tab">
-                        são francisco do sul
-                        /sc
+                            <Tab className="col tab">
+                                ITAJAI
+                                /SC
                         </Tab>
-                    <Tab className="col tab">
-                        foz do iguaçu
-                        /pr
+
+                            <Tab className="col tab">
+                                são francisco do sul
+                                /sc
                         </Tab>
-                    <Tab className="col tab">
-                        são paulo
-                        /sp
+                            <Tab className="col tab">
+                                foz do iguaçu
+                                /pr
                         </Tab>
-                    </Row>
+                            <Tab className="col tab">
+                                são paulo
+                                /sp
+                        </Tab>
+                        </Row>
                     </Container>
                 </TabList>
 
                 <TabPanel>
+                    <div className="dionisio-wrapper">
                     <Unit
                         unitImg="unidade-dionisio.png"
                         unitName="Dionísio Cerqueira"
@@ -62,10 +63,16 @@ export default () => (
                         unitParagraph2="
                         A cidade de Dionísio Cerqueira está localizada na região do Extremo-Oeste do Estado, onde faz fronteira com a Argentina. A cidade de Bernardo de Irigoyen, no Estado de Missiones, está separada do município apenas pelo Rio Peperi Guaçu. Além disso, o município também faz divisa com o Estado do Paraná, pela cidade de Barracão e, está localizado a apenas 350 quilômetros da fronteira com o Paraguai. 
                             "
-                        unitAdress="Av. Osvaldo Reis, 3281 - 18 andar - Ed. Rivieira Business Bairro Bal, Santa Clara, Praia Brava - CEP 88306 773 Itajai/SC"
+                        unitAdress="R. Pres. Vargas, 700 - Centro - Dionísio Cerqueira - SC"
+                        locDionisio="Localização"
+                        unitAdress2="Logistica e Transportes"
+                        unitAdress3="Rua 6, 51 - Área empresarial Deonelo Luciano Colombo"
+                        unitCEP="CEP: 89950-000"
                         unitMail="contato@grupoativa.net"
-                        unitPhone="(47) 2104 6900"
+                        unitPhone="(49) 3644 6900"
+                        unitPhone2="(49) 3644 2038 / 3644 0005"
                     />
+                    </div>
                 </TabPanel>
                 <TabPanel>
                     <Unit
@@ -83,7 +90,9 @@ export default () => (
                         unitParagraph4="
                         A localização privilegiada, no centro da região Sul do país, aliada a infraestrutura de serviços adequada, tornam a região de Itajaí (SC) uma grande concentradora e distribuidora de cargas, permitindo atender importantes mercados de exportação e importação, que são a nossa especialidade.
                             "
-                        unitAdress="Av. Osvaldo Reis, 3281 - 18 andar - Ed. Rivieira Business Bairro Bal, Santa Clara, Praia Brava - CEP 88306 773 Itajai/SC"
+                        loc="Localização"
+                        unitAdress="Av. Osvaldo Reis, 3281 - 18 andar - Ed. Rivieira Business - Santa Clara, Praia Brava - Itajai/SC"
+                        unitCEP="CEP: 88306-773 "
                         unitMail="contato@grupoativa.net"
                         unitPhone="(47) 2104 6900"
                     />
@@ -110,9 +119,11 @@ export default () => (
                         unitParagraph6="
                             Além de dois importantes portos, com vocações distintas para a importação e exportação de produtos a região também está próxima dos aeroportos de Joinville e de Navegantes. 
                             "
-                        unitAdress="Av. Osvaldo Reis, 3281 - 18 andar - Ed. Rivieira Business Bairro Bal, Santa Clara, Praia Brava - CEP 88306 773 Itajai/SC"
+                        loc="Localização"
+                        unitAdress="R. Fernandes Dias, 194 - Centro Histórico, São Francisco do Sul - SC"
+                        unitCEP="CEP: 89240-000"
                         unitMail="contato@grupoativa.net"
-                        unitPhone="(47) 2104 6900"
+                        unitPhone="(47) 3449 0937"
                     />
                 </TabPanel>
                 <TabPanel>
@@ -128,9 +139,11 @@ export default () => (
                         unitParagraph3="
                         Pela aduana de Foz do Iguaçu o Brasil recebe produtos como feijão, frutas, farinha de trigo, bebidas, azeitonas, carne suína, peixes e escoa itens como máquinas agrícolas, peças, madeira, minério de aço, automóveis e adubos.
                             "
-                        unitAdress="Av. Osvaldo Reis, 3281 - 18 andar - Ed. Rivieira Business Bairro Bal, Santa Clara, Praia Brava - CEP 88306 773 Itajai/SC"
+                        loc="Localização"
+                        unitAdress="Rua Quito, 206 - sala 04 - 1º andar - Bairro Beverly Falls Park"
+                        unitCEP="CEP: 85858-070"
                         unitMail="contato@grupoativa.net"
-                        unitPhone="(47) 2104 6900"
+                        unitPhone=" (45) 3026 6300"
                     />
                 </TabPanel>
                 <TabPanel>
@@ -139,10 +152,9 @@ export default () => (
                         unitName="São Paulo"
                         unitParagraph1="Em 2020 instalamos a nossa sede física na cidade de São Paulo (SP), uma das principais capitais de negócios do país e da América Latina e que concentra importantes mercados de exportação e importação. A instalação física na capital paulista intensifica a abertura para novos negócios, assim como a aproximação com clientes e parceiros da região sudeste do Brasil."
                         unitParagraph2="Em São Paulo, assim como em Santa Catarina e no Paraná, o Grupo Ativa segue comprometido em oferecer soluções inteligentes em comércio exterior. Com anos de atuação no segmento, possui expertise para atender mercados cada vez mais competitivos e exigentes, fidelizando clientes e parceiros no Brasil e no exterior."
-                        unitAdress="Bairro Vila Hamburguesa Av. Queiroz Filho, 1700, Sala 101
-                        Sunny Tower (Torre D)
-                        CEP: 05319-000
-                        "
+                        loc="Localização"
+                        unitAdress="Av. Queiroz Filho, 1700, Sala 101 - Sunny Tower (Torre D) - Vila Hamburguesa"
+                        unitCEP="CEP: 05319-000"
                         unitMail="contato@grupoativa.net"
                         unitPhone="(47) 2104 6900"
                     />

@@ -25,3 +25,18 @@
     opacity: 0.9;
     text-align: justify;
 }
+.about-section{
+    background-image: url("../../background/bg-sobre_02.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.about-row{
+    padding-top: 40px;
+    background-image: url("../../background/letreiro-sobre_03.png");
+    background-repeat: no-repeat;
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .about-row{
+        background-size: 80%;
+    }
+  }

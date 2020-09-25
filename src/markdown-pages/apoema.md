@@ -6,7 +6,7 @@ title: "Apoema"
 
 ![Caixa de exportação](images/apoema-img-1.png)
 
-SOLUÇÕES: Certificações para produtos importados
+Certificações para produtos importados
 
 A sua empresa precisa certificar um produto importado e não sabe por onde começar? A Apoema Comércio e Serviços LTDA, um dos segmentos do Grupo Ativa, oferece assessoria completa no processo de certificações de produtos importados. 
 

@@ -6,7 +6,7 @@ title: "Assessoria"
 
 ![](images/assessoria-img-1.jpg)
 
-Solução: Assessoria Aduaneira
+Assessoria Aduaneira
 
 A rotina do mercado internacional é dinâmica. Exige atualizações constantes sobre os processos que regulamentam a entrada e a saída de mercadorias de um país. É por isso que a atuação de uma assessoria aduaneira é fundamental para auxiliar no planejamento de operações de comércio exterior e no acompanhamento de trâmites burocráticos junto aos órgãos regulamentadores envolvidos no processo. 
 

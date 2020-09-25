@@ -25,6 +25,12 @@ import TeamForm from "../components/TeamForm"
 import UnitTabs from "../components/UnitTabs"
 import QuestionForm from "../components/QuestionForm"
 
+import sal from 'sal.js'
+
+// var sal = require('sal.js')
+
+sal();
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />

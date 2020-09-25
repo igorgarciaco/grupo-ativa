@@ -8,6 +8,8 @@ import Img from "gatsby-image"
 
 import Image from "./image.js"
 
+import FormData from "./Form.js"
+
 const TeamForm = () => {
 
   const data = useStaticQuery(graphql`
@@ -55,8 +57,8 @@ const TeamForm = () => {
                 </div>
                 <p>Buscamos pessoas visionárias, dedicadas e com empatia pelo trabalho em equipe. Se você se identifica com estes valores, anexe o seu currículo em nosso banco de talentos. A equipe de RH analisará seu perfil e entraremos em contato caso você se encaixe em uma das nossas oportunidades de trabalho. </p>
               </div>
-
-              <Form enctype="multipart/form-data" inline action="https://getform.io/f/d2337403-804c-40bc-8c54-1c02e5e33fc1" method="POST">
+              <FormData />
+              {/* <Form enctype="multipart/form-data" inline action="https://getform.io/f/d2337403-804c-40bc-8c54-1c02e5e33fc1" method="POST">
                 <Col md="4">
                   <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
                     <Input type="text" name="full_Name" id="fullName" placeholder="Nome completo" className="team-name" />
@@ -71,7 +73,7 @@ const TeamForm = () => {
 
                   <Button type="submit" className="btn-danger btn-team-form">Enviar meu currículo</Button>
                 </Col>
-              </Form>
+              </Form> */}
 
             </Col>
 

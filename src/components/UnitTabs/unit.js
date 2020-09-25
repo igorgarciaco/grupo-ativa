@@ -9,8 +9,8 @@ import { Icon, InlineIcon } from '@iconify/react';
 import mailTwotone from '@iconify/icons-ant-design/mail-twotone';
 import phoneTwotone from '@iconify/icons-ant-design/phone-twotone';
 
-const Unit = ({ unitImg, unitName, unitAdress, unitMail, unitPhone, 
-  unitParagraph1, unitParagraph2, unitParagraph3, unitParagraph4, unitParagraph5, unitParagraph6 }) => {
+const Unit = ({ unitImg, unitName, unitAdress, unitAdress2, unitAdress3, unitMail, unitPhone, unitPhone2,
+  unitParagraph1, unitParagraph2, unitParagraph3, unitParagraph4, unitParagraph5, unitParagraph6, unitCEP, locDionisio, loc }) => {
 
     const data = useStaticQuery(
         graphql`
@@ -56,8 +56,13 @@ const Unit = ({ unitImg, unitName, unitAdress, unitMail, unitPhone,
                             <p>{unitParagraph4}</p>
                             <p>{unitParagraph5}</p>
                             <p>{unitParagraph6}</p>
-                            <p>Localização</p>
-                            <p>{unitAdress}</p>
+                            <p style={{marginBottom: "0px"}}>{loc}</p>
+                            <p style={{marginBottom: "0px"}}>{unitAdress2}</p>
+                            <p>{unitAdress3}</p>
+                            <p className="dionisio-phone-2" ><Icon icon={phoneTwotone} color="#B62528"/> {unitPhone2}</p>
+                            <p style={{marginBottom: "0px"}}>{locDionisio}</p>
+                            <p style={{marginBottom: "0px"}}>{unitAdress}</p>
+                            <p>{unitCEP}</p>
                             <p><Icon icon={mailTwotone} color="#B62528" /> {unitMail} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<Icon icon={phoneTwotone} color="#B62528" /> {unitPhone}</p>
                         </div>
                     </Col>

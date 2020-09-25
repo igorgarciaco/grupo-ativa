@@ -16,32 +16,33 @@ export default class ApoemaForm extends React.Component {
         const { status } = this.state;
         return (
             <Form
+                onSubmit={this.submitForm}
                 action="https://getform.io/f/5d2b40ae-b9fd-4b4a-9935-44ed8fcd9ce6"
                 method="POST"
                 className="internal-form"
             >
                 <Row form>
-                <Col md={6}>
-                    <FormGroup>
-                        <Input type="text" name="_replyto" placeholder="Nome completo" />
-                    </FormGroup>
-                </Col>
-                <Col md={6}>
-                    <FormGroup>
-                        <Input type="email" name="email" placeholder="Seu e-mail" />
-                    </FormGroup>
-                </Col>
-                <Col sm={12}>
-                <FormGroup>
-                    <Input type="textarea" name="message" placeholder="Em que posso lhe ajudar? Digite aqui" />
-                </FormGroup>
-                </Col>
-                {status === "SUCCESS" ? <p>Formulário Enviado!</p> :
-                <Col sm={12} className="submit-col">
-                    <Button className="apoema-submit">Enviar</Button>
-                </Col>
-                 }
-                {status === "ERROR" && <p>Ooops! Não foi possível enviar.</p>}
+                    <Col md={6}>
+                        <FormGroup>
+                            <Input type="text" name="_replyto" placeholder="Nome completo"  required />
+                        </FormGroup>
+                    </Col>
+                    <Col md={6}>
+                        <FormGroup>
+                            <Input type="email" name="email" placeholder="Seu e-mail" required />
+                        </FormGroup>
+                    </Col>
+                    <Col sm={12}>
+                        <FormGroup>
+                            <Input type="textarea" name="message" placeholder="Em que posso lhe ajudar? Digite aqui" required />
+                        </FormGroup>
+                    </Col>
+                    {status === "SUCCESS" ? <p>Formulário Enviado!</p> :
+                        <Col sm={12} className="submit-col">
+                            <Button className="apoema-submit">Enviar</Button>
+                        </Col>
+                    }
+                    {status === "ERROR" && <p>Ooops! Não foi possível enviar.</p>}
                 </Row>
             </Form>
         );

@@ -35,7 +35,7 @@ const KeyWest = ({ serviceImg, serviceLogo, serviceText }) => {
 
   return (
     <Container className="services-left key-west">
-      <Row>
+      <Row className="row-services">
         <Col className="img-left-col" md="6"
           data-sal="slide-left"
           data-sal-delay="1900"
@@ -49,21 +49,18 @@ const KeyWest = ({ serviceImg, serviceLogo, serviceText }) => {
             {TheLogoYouWant}
           </div>
           <div
-            className="service-text"
-            data-sal="slide-left"
-            data-sal-delay="300"
-            data-sal-easing="ease"
-            data-sal-duration="600"
+            className="service-text overflow-hidden"
           >
-            <p>{serviceText}</p>
+            <p
+              data-sal="slide-left"
+              data-sal-delay="300"
+              data-sal-easing="ease"
+              data-sal-duration="600"
+            >{serviceText}</p>
             <br />
-            <Link to="/keywest/" className="btn-more btn-yellow btn-service" >Saiba mais</Link>
           </div>
+          <Link to="/keywest/" className="btn-more btn-yellow btn-service btn-margin-l" >Saiba mais</Link>
           <div className="service-logo service-logo-left" id="keyWest"
-            data-sal="slide-left"
-            data-sal-delay="300"
-            data-sal-easing="ease"
-            data-sal-duration="600"
           >
             {TheLogoYouWant}
           </div>

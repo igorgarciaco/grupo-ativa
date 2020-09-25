@@ -24,17 +24,17 @@ export default class ApoemaForm extends React.Component {
                 <Row form>
                 <Col md={6}>
                     <FormGroup>
-                        <Input type="text" name="_replyto" placeholder="Nome completo" />
+                        <Input type="text" name="_replyto" placeholder="Nome completo" required/>
                     </FormGroup>
                 </Col>
                 <Col md={6}>
                     <FormGroup>
-                        <Input type="email" name="email" placeholder="Seu e-mail" />
+                        <Input type="email" name="email" placeholder="Seu e-mail" required/>
                     </FormGroup>
                 </Col>
                 <Col sm={12}>
                 <FormGroup>
-                    <Input type="textarea" name="message" placeholder="Em que posso lhe ajudar? Digite aqui" />
+                    <Input type="textarea" name="message" placeholder="Em que posso lhe ajudar? Digite aqui" required/>
                 </FormGroup>
                 </Col>
                 {status === "SUCCESS" ? <p>Formulário Enviado!</p> :

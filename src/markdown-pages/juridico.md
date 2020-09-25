@@ -6,7 +6,7 @@ title: "Jurídico"
 
 ![](images/jur-img-1.png)
 
-SOLUÇÕES: Ativa Assessoria Jurídica
+Ativa Assessoria Jurídica
 
 A dinâmica do mercado global é complexa e exige que os negócios estejam dispostos a lidar com situações peculiares e, por vezes, até inesperadas. Invariavelmente, as empresas se veem diante de contextos nos quais precisam de orientações seguras relacionadas ao direito aduaneiro, internacional e tributário.
 

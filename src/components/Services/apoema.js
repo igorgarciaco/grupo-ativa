@@ -35,7 +35,7 @@ const Apoema = ({ serviceImg, serviceLogo, serviceText }) => {
 
   return (
     <Container className="services-left">
-      <Row>
+      <Row className="row-services">
         <Col className="img-left-col" md="6"
           data-sal="slide-left"
           data-sal-delay="1900"
@@ -46,20 +46,22 @@ const Apoema = ({ serviceImg, serviceLogo, serviceText }) => {
         </Col>
         <Col className="text-col" md="5">
           <div className="logo-mobile">
-          {TheLogoYouWant}
+            {TheLogoYouWant}
           </div>
           <div
-            className="service-text"
-            data-sal="slide-left"
-            data-sal-delay="300"
-            data-sal-easing="ease"
-            data-sal-duration="600"
+            className="service-text overflow-hidden"
+
           >
-            <p>
+            <p
+              data-sal="slide-left"
+              data-sal-delay="300"
+              data-sal-easing="ease"
+              data-sal-duration="600"
+            >
               {serviceText}
             </p>
-          <Link className="btn-more btn-orange btn-service" to="/apoema/">Saiba mais</Link>
           </div>
+            <Link className="btn-more btn-orange btn-service btn-margin-l" to="/apoema/">Saiba mais</Link>
           <div className="service-logo service-logo-left" id="apoema">
             {TheLogoYouWant}
           </div>
