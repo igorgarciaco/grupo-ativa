@@ -88,7 +88,7 @@ const ApoemaPage = ({ data }) => (
                         </Row>
                         <Row>
                             <Col md="6">
-                                <p>Quer oritenação ou cotação? Envie um e-mail para o nosso especialista utilizando o formulário abaixo ou fale diretamente com o especialista</p>
+                                <p>Quer orientação ou cotação? Envie um e-mail para o nosso especialista utilizando o formulário abaixo ou fale diretamente com o especialista</p>
                                 <AssessoriaForm />
                             </Col>
                             <Col md="6">
