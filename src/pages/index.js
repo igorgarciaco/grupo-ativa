@@ -25,6 +25,8 @@ import TeamForm from "../components/TeamForm"
 import UnitTabs from "../components/UnitTabs"
 import QuestionForm from "../components/QuestionForm"
 
+import Modal from "../components/Modal"
+
 import sal from 'sal.js'
 
 // var sal = require('sal.js')
@@ -91,7 +93,7 @@ const IndexPage = () => (
       <TeamForm />
 
       <QuestionForm />
-
+      {/* <Modal /> */}
     </div>
   </Layout>
 )

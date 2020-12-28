@@ -94,7 +94,7 @@ const ApoemaPage = ({ data }) => (
                                     <div className="whatsapp-link-pop">
                                         <span>Fale com um especialista. Se preferir, podemos te ligar.</span>
                                     </div>
-                                    <a href="https://api.whatsapp.com/send?phone=5547996011648&text=Olá">
+                                    <a href="https://api.whatsapp.com/send?phone=5549991314361&text=Olá">
                                         <img src={WhatsAppLogo} ></img>
                                     </a>
                                 </div>
@@ -102,9 +102,9 @@ const ApoemaPage = ({ data }) => (
 
                                     <SpecialistProfile
                                         specPhoto="avatar_logistica.png"
-                                        specName="Gilberto do Nascimento"
-                                        specMail="gilberto@grupoativa.net"
-                                        specNumber="(47) 9 9601 1648"
+                                        specName="Gleidison"
+                                        specMail="gleidison@grupoativa.net"
+                                        specNumber="(49) 9 9131-4361"
                                     />
                                 </div>
                             </Col>
