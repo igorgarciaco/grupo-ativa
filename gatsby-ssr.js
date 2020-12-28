@@ -7,14 +7,15 @@
 // You can delete this file if you're not using it
 const React = require("react")
 const HeadComponents = [
-
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126017324-1">
+    </script>,
+    <script>
         window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)}
-  gtag('js', new Date());
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
 
-  gtag('config', 'UA-126017324-1');
-</script>
+        gtag('config', 'UA-126017324-1');
+    </script>
 ]
 
 exports.onRenderBody = ({
