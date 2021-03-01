@@ -5,25 +5,29 @@
  */
 
 // You can delete this file if you're not using it
-const React = require("react")
-const HeadComponents = [
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126017324-1">
-    </script>,
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)}
-        gtag('js', new Date());
+// const React = require("react")
 
-        gtag('config', 'UA-126017324-1');
-    </script>
-]
+// const HeadComponents = [
+//     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126017324-1">
+//     </script>,
+//     <script>
+//         window.dataLayer = window.dataLayer || [];
+//         function gtag(){dataLayer.push(arguments)}
+//         gtag('js', new Date());
 
-exports.onRenderBody = ({
-    setHeadComponents,
-    setHtmlAttributes,
-    setBodyAttributes
-}, pluginOptions) => {
-    // setHtmlAttributes(HtmlAttributes)
-    setHeadComponents(HeadComponents)
-    // setBodyAttributes(BodyAttributes)
-}
+//         gtag('config', 'UA-126017324-1');
+//     </script>,
+//             <meta charSet="utf-8" />,
+//             <meta httpEquiv="x-ua-compatible" content="ie=edge" />,
+//             <meta
+//               name="viewport"
+//               content="width=device-width, initial-scale=1, shrink-to-fit=no"
+//             />,
+//           ,
+// ]
+
+// exports.onRenderBody = ({
+//     setHeadComponents,
+// }, ) => {
+//     setHeadComponents(HeadComponents)
+// }
